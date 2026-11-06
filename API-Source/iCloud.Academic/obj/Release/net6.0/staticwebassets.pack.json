@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230406.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230406.txt"
+    },
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230407.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230407.txt"
+    },
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230408.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230408.txt"
+    },
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230411.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230411.txt"
+    },
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230418.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230418.txt"
+    },
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230419.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230419.txt"
+    },
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230420.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230420.txt"
+    },
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230421.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230421.txt"
+    },
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230422.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230422.txt"
+    },
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230510.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230510.txt"
+    },
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230518.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230518.txt"
+    },
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230526.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230526.txt"
+    },
+    {
+      "Id": "D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\wwwroot\\log\\Error\\20230527.txt",
+      "PackagePath": "staticwebassets\\log\\Error\\20230527.txt"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.iCloud.Academic.props",
+      "PackagePath": "build\\iCloud.Academic.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.iCloud.Academic.props",
+      "PackagePath": "buildMultiTargeting\\iCloud.Academic.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.iCloud.Academic.props",
+      "PackagePath": "buildTransitive\\iCloud.Academic.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.iCloud.Academic.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

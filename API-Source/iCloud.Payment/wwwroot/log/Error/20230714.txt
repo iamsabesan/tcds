@@ -1,0 +1,34 @@
+***************************************************************************************** 
+Date  : 14-07-2023 06:12:25 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Trying to pass a table-valued parameter with 9 column(s) where the corresponding user-defined table type requires 8 column(s).",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.CreatePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 77\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 14-07-2023 06:23:44 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Trying to pass a table-valued parameter with 9 column(s) where the corresponding user-defined table type requires 8 column(s).",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.CreatePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 77\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+

@@ -1,0 +1,378 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Inetpub\vhosts\boxoftech.int.in\spider-franchisee.boxoftech.int.in\
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 500.463ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 518.544ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 211.4631ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 211.6272ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 201.8089ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 201.9298ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 211.5958ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 211.7143ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/icloud-academic/v1/course/mobile-courses/6827af15-ef30-4944-adff-797f10839516
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/icloud-academic/v1/course/mobile-courses/6827af15-ef30-4944-adff-797f10839516
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 1488.4244ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 1488.537ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 226.1144ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 226.2569ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 1505.0992ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 1505.2304ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 1667.9987ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 1668.1178ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 432.1867ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 434.7915ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/icloud-payment/v1/wallet/walletbalance/058c3265-eb0a-4b6f-96aa-d8e65597b170
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/icloud-payment/v1/wallet/walletbalance/058c3265-eb0a-4b6f-96aa-d8e65597b170
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 465.2438ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 465.3373ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/email/v1/email/count
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/email/v1/email/count
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 769.0974ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 769.2503ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/icloud-academic/v1/course/summary/byfranchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/icloud-academic/v1/course/summary/byfranchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 1326.9573ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 1327.0685ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/icloud-inventory/v1/indent/summary/byfranchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/icloud-inventory/v1/indent/summary/byfranchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 2161.9234ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 2162.0809ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/icloud-academic/v1/course/summary/byadmin
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/icloud-academic/v1/course/summary/byadmin
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 1220.5175ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 1220.6507ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/email/v1/email/count
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/email/v1/email/count
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 1167.7373ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 1167.9246ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/icloud-payment/v1/wallet/summary
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/icloud-payment/v1/wallet/summary
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 1061.6571ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 1061.773ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 34.0347ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 34.261ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 19.899ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 20.0042ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 22.5519ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 23.2033ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 1013.9218ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 1014.1532ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/icloud-inventory/v1/indent/summary/byadmin
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/icloud-inventory/v1/indent/summary/byadmin
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 925.8704ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 925.977ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 14.6735ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 14.7635ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 232.4233ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 232.5299ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 9.0794ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 9.1761ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/icloud-inventory/v1/indent/purchase-amount/list
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/icloud-inventory/v1/indent/purchase-amount/list
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 495.1112ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 495.2053ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 229.0311ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 229.1179ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/tenant-branch-service/tenantbranch/branch-contact-by-id?tenantBranchID=6827af15-ef30-4944-adff-797f10839516
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/tenant-branch-service/tenantbranch/branch-contact-by-id?tenantBranchID=6827af15-ef30-4944-adff-797f10839516
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 524.0115ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 524.2615ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/icloud-payment/v1/wallet/walletbalance/6827af15-ef30-4944-adff-797f10839516
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/icloud-payment/v1/wallet/walletbalance/6827af15-ef30-4944-adff-797f10839516
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 443.5379ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 443.6324ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 216.4839ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 216.5657ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 227.9545ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 228.0441ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/icloud-payment/v1/wallet/walletbalance/6827af15-ef30-4944-adff-797f10839516
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/icloud-payment/v1/wallet/walletbalance/6827af15-ef30-4944-adff-797f10839516
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 460.7799ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 460.8526ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/icloud-academic/v1/course/summary/byfranchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/icloud-academic/v1/course/summary/byfranchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 500.7177ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 500.9132ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/icloud-inventory/v1/indent/summary/byfranchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/icloud-inventory/v1/indent/summary/byfranchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 540.6443ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 540.7378ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/email/v1/email/count
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/email/v1/email/count
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 592.4094ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 592.4776ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 12.4373ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 12.5544ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 12.2131ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 12.3025ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 12.2941ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 12.3968ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 234.9621ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 235.1193ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 220.3246ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 220.4921ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 12.09ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 12.1854ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 8.7827ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 8.8633ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request POST https://gateway.boxoftech.int.in/dbadmin/get-tenant-constr-on-reg
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 9.3222ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 9.4032ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 225.6026ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 225.7455ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 215.7786ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 215.8612ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 401.3334ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 401.4266ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://gateway.boxoftech.int.in/dbadmin-service/dbadmin/get-tenant-service-constr/Franchisee
+info: System.Net.Http.HttpClient.IDawnHttpClient.ClientHandler[101]
+      Received HTTP response headers after 731.8171ms - 200
+info: System.Net.Http.HttpClient.IDawnHttpClient.LogicalHandler[101]
+      End processing HTTP request after 731.9111ms - 200
+info: AppExtensions[0]
+      Unregistering from Consul
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

@@ -1,0 +1,94 @@
+***************************************************************************************** 
+Date  : 10-05-2023 11:20:27 AM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "DB error occurred while execute query",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at CommonServices.CommonService.CreateBranch(BranchCreate createNewBranch) in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 61\r\n   at iCloud.Franchisee.Services.FranchiseeService.CreateFranchisee(FranchiseeRegister register) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Services\\FranchiseeService.cs:line 52\r\n   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.CreateFranchisee(FranchiseeRegister franchiseeRegister) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 43\r\n   at lambda_method41(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "CommonServices",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 10-05-2023 01:53:23 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Cannot find either column \"dbo\" or the user-defined function or aggregate \"dbo.sfnCheckFranchiseeRequestIDExists\", or the name is ambiguous.",
+    "Data": {},
+    "Source": "iCloud.Franchisee",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.RejectFranchisee(FranchiseeRejection franchiseeRejection) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 69\r\n   at lambda_method38(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 10-05-2023 01:57:35 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Procedure or function 'uspRejectFranchisee' expects parameter '@BranchRqstID', which was not supplied.",
+    "Data": {},
+    "Source": "iCloud.Franchisee",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.RejectFranchisee(FranchiseeRejection franchiseeRejection) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 69\r\n   at lambda_method38(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 10-05-2023 03:54:41 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "DB error occurred while execute query",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at CommonServices.CommonService.CreateBranch(BranchCreate createNewBranch) in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 61\r\n   at iCloud.Franchisee.Services.FranchiseeService.CreateFranchisee(FranchiseeRegister register) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Services\\FranchiseeService.cs:line 52\r\n   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.CreateFranchisee(FranchiseeRegister franchiseeRegister) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 43\r\n   at lambda_method41(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "CommonServices",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 10-05-2023 06:58:13 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "DB error occurred while execute query",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at CommonServices.CommonService.CreateBranch(BranchCreate createNewBranch) in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 61\r\n   at iCloud.Franchisee.Services.FranchiseeService.CreateFranchisee(FranchiseeRegister register) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Services\\FranchiseeService.cs:line 52\r\n   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.CreateFranchisee(FranchiseeRegister franchiseeRegister) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 43\r\n   at lambda_method41(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "CommonServices",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+

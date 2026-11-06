@@ -1,0 +1,51 @@
+***************************************************************************************** 
+Date  : 21-04-2023 12:39:52 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Error converting data type nvarchar to date.",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.BatchV1Controller.CreateNewBatch(CreateBatch batch) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\BatchV1Controller.cs:line 53\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 21-04-2023 12:41:57 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Error converting data type nvarchar to date.",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.BatchV1Controller.CreateNewBatch(CreateBatch batch) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\BatchV1Controller.cs:line 53\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 21-04-2023 12:43:22 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Error converting data type nvarchar to date.",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.BatchV1Controller.CreateNewBatch(CreateBatch batch) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\BatchV1Controller.cs:line 53\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+

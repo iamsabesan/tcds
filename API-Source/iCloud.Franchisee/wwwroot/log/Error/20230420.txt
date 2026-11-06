@@ -1,0 +1,936 @@
+***************************************************************************************** 
+Date  : 20-04-2023 11:11:51 AM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.DateTimeOffset' cannot be converted to type 'System.String'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 186\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 11:12:24 AM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.DateTimeOffset' cannot be converted to type 'System.String'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 186\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 11:17:35 AM 
+Trace : {
+  "ex": {
+    "ClassName": "Newtonsoft.Json.JsonSerializationException",
+    "Message": "Cannot deserialize the current JSON object (e.g. {\"name\":\"value\"}) into type 'System.Collections.Generic.List`1[EntitiesDTO.Users.ActiveFranchiseeContact]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.\r\nTo fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.\r\nPath 'Code', line 2, position 9.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)\r\n   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)\r\n   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)\r\n   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)\r\n   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)\r\n   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)\r\n   at CommonServices.CommonService.ActiveFranchiseeContact() in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 209\r\n   at iCloud.Admin.Services.FranchiseeService.GetActiveFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 301\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetActiveFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 123\r\n   at lambda_method107(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "Newtonsoft.Json",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 11:18:29 AM 
+Trace : {
+  "ex": {
+    "ClassName": "Newtonsoft.Json.JsonSerializationException",
+    "Message": "Cannot deserialize the current JSON object (e.g. {\"name\":\"value\"}) into type 'System.Collections.Generic.List`1[EntitiesDTO.Users.ActiveFranchiseeContact]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.\r\nTo fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.\r\nPath 'Code', line 2, position 9.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)\r\n   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)\r\n   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)\r\n   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)\r\n   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)\r\n   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)\r\n   at CommonServices.CommonService.ActiveFranchiseeContact() in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 209\r\n   at iCloud.Admin.Services.FranchiseeService.GetActiveFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 301\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetActiveFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 123\r\n   at lambda_method107(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "Newtonsoft.Json",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 11:20:24 AM 
+Trace : {
+  "ex": {
+    "ClassName": "Newtonsoft.Json.JsonSerializationException",
+    "Message": "Cannot deserialize the current JSON object (e.g. {\"name\":\"value\"}) into type 'System.Collections.Generic.List`1[EntitiesDTO.Users.ActiveFranchiseeContact]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.\r\nTo fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.\r\nPath 'Code', line 2, position 9.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)\r\n   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)\r\n   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)\r\n   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)\r\n   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)\r\n   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)\r\n   at CommonServices.CommonService.ActiveFranchiseeContact() in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 209\r\n   at iCloud.Admin.Services.FranchiseeService.GetActiveFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 301\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetActiveFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 123\r\n   at lambda_method107(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "Newtonsoft.Json",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 11:22:40 AM 
+Trace : {
+  "ex": {
+    "ClassName": "Newtonsoft.Json.JsonSerializationException",
+    "Message": "Cannot deserialize the current JSON object (e.g. {\"name\":\"value\"}) into type 'System.Collections.Generic.List`1[EntitiesDTO.Users.ActiveFranchiseeContact]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.\r\nTo fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.\r\nPath 'Code', line 2, position 9.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)\r\n   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)\r\n   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)\r\n   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)\r\n   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)\r\n   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)\r\n   at CommonServices.CommonService.ActiveFranchiseeContact() in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 209\r\n   at iCloud.Admin.Services.FranchiseeService.GetActiveFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 301\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetActiveFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 123\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "Newtonsoft.Json",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 11:34:11 AM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Not found",
+    "Data": {},
+    "Source": "iCloud.Admin",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeRequestInfo(Guid tenantBranchID) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 110\r\n   at lambda_method78(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 12:03:11 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.DateTimeOffset' cannot be converted to type 'System.String'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 186\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 12:03:20 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.DateTimeOffset' cannot be converted to type 'System.String'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 186\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 12:08:54 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Not found",
+    "Data": {},
+    "Source": "iCloud.Admin",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 94\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 12:20:04 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.FormatException",
+    "Message": "String '19-04-2023 11:53:08 +05:30' was not recognized as a valid DateTime.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 218\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233033,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 12:22:00 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.FormatException",
+    "Message": "String '19-04-2023 11:53:08 +05:30' was not recognized as a valid DateTime.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 218\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233033,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 12:22:32 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.FormatException",
+    "Message": "String '19-04-2023 11:53:08 +05:30' was not recognized as a valid DateTime.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 218\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233033,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 12:22:54 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.FormatException",
+    "Message": "String '19-04-2023 11:53:08 +05:30' was not recognized as a valid DateTime.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 218\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233033,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 12:23:29 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.FormatException",
+    "Message": "String '19-04-2023 11:53:08 +05:30' was not recognized as a valid DateTime.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 218\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233033,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:12:45 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "address id not found !",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at iCloud.Admin.Services.FranchiseeService.CreateFranchisee(FranchiseeRegister register) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 95\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.CreateFranchisee(FranchiseeRegister franchiseeRegister) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 41\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "iCloud.Admin",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:13:47 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentNullException",
+    "Message": "Value cannot be null.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.Guid.Parse(String input)\r\n   at iCloud.Admin.Services.FranchiseeService.CreateFranchisee(FranchiseeRegister register) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 80\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.CreateFranchisee(FranchiseeRegister franchiseeRegister) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 41\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147467261,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": "input"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:14:53 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentNullException",
+    "Message": "Value cannot be null.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.Guid.Parse(String input)\r\n   at iCloud.Admin.Services.FranchiseeService.CreateFranchisee(FranchiseeRegister register) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 80\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.CreateFranchisee(FranchiseeRegister franchiseeRegister) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 41\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147467261,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": "input"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:16:18 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "address id not found !",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at iCloud.Admin.Services.FranchiseeService.CreateFranchisee(FranchiseeRegister register) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 95\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.CreateFranchisee(FranchiseeRegister franchiseeRegister) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 41\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "iCloud.Admin",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:23:09 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Decimal'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 227\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method110(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:23:20 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Decimal'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 227\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method110(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:26:58 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Decimal'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 227\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method110(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:35:21 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Decimal'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 227\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:40:33 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Decimal'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 227\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:43:16 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.DBNull' cannot be converted to type 'System.String'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 96\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 227\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:47:25 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.DBNull' cannot be converted to type 'System.String'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 96\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 227\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:52:35 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Decimal'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 227\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:53:23 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Decimal'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 227\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:53:41 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Decimal'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 227\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 03:56:59 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.DateTimeOffset' cannot be converted to type 'System.String'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 184\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 04:16:09 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.IndexOutOfRangeException",
+    "Message": "Cannot find table 4.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.Data.DataTableCollection.get_Item(Int32 index)\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 234\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233080,
+    "Source": "System.Data.Common",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 04:17:40 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.IndexOutOfRangeException",
+    "Message": "Cannot find table 4.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.Data.DataTableCollection.get_Item(Int32 index)\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 234\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233080,
+    "Source": "System.Data.Common",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 04:24:20 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.DBNull' cannot be converted to type 'System.DateTime'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 96\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 184\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 04:25:57 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.DBNull' cannot be converted to type 'System.DateTime'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 96\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 184\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 04:28:19 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.DBNull' cannot be converted to type 'System.DateTime'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 96\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 184\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 04:29:13 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.DateTime'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 111\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 184\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 04:30:56 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.IndexOutOfRangeException",
+    "Message": "Cannot find table 4.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.Data.DataTableCollection.get_Item(Int32 index)\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 234\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233080,
+    "Source": "System.Data.Common",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 04:31:17 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.IndexOutOfRangeException",
+    "Message": "Cannot find table 4.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.Data.DataTableCollection.get_Item(Int32 index)\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 234\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233080,
+    "Source": "System.Data.Common",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 04:33:56 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.IndexOutOfRangeException",
+    "Message": "Cannot find table 4.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.Data.DataTableCollection.get_Item(Int32 index)\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 234\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233080,
+    "Source": "System.Data.Common",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 04:35:21 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.DateTimeOffset' cannot be converted to type 'System.String'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 111\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Admin.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 184\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 90\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 05:01:22 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "The procedure \"uspCreateFranchiseePayment\" has no parameter named \"@PaymentItemsTest\".",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at CommonServices.CommonService.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 240\r\n   at iCloud.Admin.Services.FranchiseeService.CreateFranchiseePayment(Payment payment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 361\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.CreateFranchiseePayment(Payment payment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 139\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "CommonServices",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 05:01:43 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "The procedure \"uspCreateFranchiseePayment\" has no parameter named \"@PaymentItemsTest\".",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at CommonServices.CommonService.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 240\r\n   at iCloud.Admin.Services.FranchiseeService.CreateFranchiseePayment(Payment payment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 361\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.CreateFranchiseePayment(Payment payment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 139\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "CommonServices",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 05:10:11 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "The procedure \"uspCreateFranchiseePayment\" has no parameter named \"@PaymentItemsTest\".",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at CommonServices.CommonService.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 240\r\n   at iCloud.Admin.Services.FranchiseeService.CreateFranchiseePayment(Payment payment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 361\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.CreateFranchiseePayment(Payment payment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 139\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "CommonServices",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 05:53:11 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "The procedure \"uspCreateFranchiseePayment\" has no parameter named \"@PaymentItemsTest\".",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at CommonServices.CommonService.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 240\r\n   at iCloud.Admin.Services.FranchiseeService.CreateFranchiseePayment(Payment payment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 361\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.CreateFranchiseePayment(Payment payment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 139\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "CommonServices",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 05:55:55 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "The procedure \"uspCreateFranchiseePayment\" has no parameter named \"@PaymentItemsTest\".",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at CommonServices.CommonService.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 240\r\n   at iCloud.Admin.Services.FranchiseeService.CreateFranchiseePayment(Payment payment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 361\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.CreateFranchiseePayment(Payment payment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 139\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "CommonServices",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-04-2023 05:57:03 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "The procedure \"uspCreateFranchiseePayment\" has no parameter named \"@PaymentItemsTest\".",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at CommonServices.CommonService.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 240\r\n   at iCloud.Admin.Services.FranchiseeService.CreateFranchiseePayment(Payment payment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Services\\FranchiseeService.cs:line 361\r\n   at iCloud.Admin.Controllers.FranchiseeV1Controller.CreateFranchiseePayment(Payment payment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\FranchiseeV1Controller.cs:line 139\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "CommonServices",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+

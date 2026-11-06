@@ -1,0 +1,456 @@
+***************************************************************************************** 
+Date  : 06-04-2023 06:23:37 PM 
+Trace : {
+  "ex": {
+    "Code": 308,
+    "Description": "",
+    "RefData": {
+      "SubjectName": "Web Development",
+      "SubjectMaterial": [
+        {
+          "MaterialID": "a1848dd4-ee05-41f3-9864-056f324f4e52"
+        },
+        {
+          "MaterialID": "3393270d-b7e5-4643-a895-fc93abf142df"
+        },
+        {
+          "MaterialID": "edfd58bc-0ec2-48bc-b380-84e9fc0b591e"
+        }
+      ],
+      "CreatedBy": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+    },
+    "RefCommand": {
+      "Timeout": 30,
+      "Type": "StoredProcedure",
+      "Text": "uspCreateSubject",
+      "Params": [
+        {
+          "Name": "@SubjectName",
+          "UsrType": "String",
+          "UsrValue": "Web Development",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Web Development",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@CreatedBy",
+          "UsrType": "Guid",
+          "UsrValue": "9a5f11e3-0197-4918-a2ec-a1bea438e121",
+          "DbType": "UniqueIdentifier",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+          }
+        }
+      ],
+      "Connection": {
+        "State": "Open",
+        "Database": "iCloud_Academic",
+        "DataSource": "Data Source=OPTIMUS\\MSSQLSERVER2019;Initial Catalog=iCloud_Academic;Persist Security Info=True;User ID=dawn;Password=dawn_123;TrustServerCertificate=Yes;",
+        "Timeout": 15
+      }
+    },
+    "RefTrace": "   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteScalar()\r\n   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)",
+    "DawnExceptionStatusCode": 20,
+    "Message": "Procedure or function 'uspCreateSubject' expects parameter '@CreateBy', which was not supplied.",
+    "Data": {},
+    "Source": "Database",
+    "HResult": -2146233088,
+    "StackTrace": "   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)\r\n   at iCloud.Academic.Repository.SubjectRepository.CreateSubject(CreateSubject subject, Guid actionBy) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Repository\\SubjectRepository.cs:line 23\r\n   at iCloud.Academic.Services.SubjectService.CreateSubject(CreateSubject subject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\SubjectService.cs:line 36\r\n   at iCloud.Academic.Controllers.SubjectV1Controller.CreateSubject(CreateSubject subject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\SubjectV1Controller.cs:line 42\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 06-04-2023 06:25:50 PM 
+Trace : {
+  "ex": {
+    "Code": 308,
+    "Description": "",
+    "RefData": {
+      "SubjectName": "Web Development",
+      "SubjectMaterial": [
+        {
+          "MaterialID": "a1848dd4-ee05-41f3-9864-056f324f4e52"
+        },
+        {
+          "MaterialID": "3393270d-b7e5-4643-a895-fc93abf142df"
+        },
+        {
+          "MaterialID": "edfd58bc-0ec2-48bc-b380-84e9fc0b591e"
+        }
+      ],
+      "CreatedBy": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+    },
+    "RefCommand": {
+      "Timeout": 30,
+      "Type": "StoredProcedure",
+      "Text": "uspCreateSubject",
+      "Params": [
+        {
+          "Name": "@SubjectName",
+          "UsrType": "String",
+          "UsrValue": "Web Development",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Web Development",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@CreatedBy",
+          "UsrType": "Guid",
+          "UsrValue": "9a5f11e3-0197-4918-a2ec-a1bea438e121",
+          "DbType": "UniqueIdentifier",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+          }
+        }
+      ],
+      "Connection": {
+        "State": "Open",
+        "Database": "iCloud_Academic",
+        "DataSource": "Data Source=OPTIMUS\\MSSQLSERVER2019;Initial Catalog=iCloud_Academic;Persist Security Info=True;User ID=dawn;Password=dawn_123;TrustServerCertificate=Yes;",
+        "Timeout": 15
+      }
+    },
+    "RefTrace": "   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteScalar()\r\n   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)",
+    "DawnExceptionStatusCode": 20,
+    "Message": "The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.\r\nCannot insert the value NULL into column 'Material', table 'iCloud_Academic.dbo.Subjects'; column does not allow nulls. INSERT fails.",
+    "Data": {},
+    "Source": "Database",
+    "HResult": -2146233088,
+    "StackTrace": "   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)\r\n   at iCloud.Academic.Repository.SubjectRepository.CreateSubject(CreateSubject subject, Guid actionBy) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Repository\\SubjectRepository.cs:line 23\r\n   at iCloud.Academic.Services.SubjectService.CreateSubject(CreateSubject subject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\SubjectService.cs:line 36\r\n   at iCloud.Academic.Controllers.SubjectV1Controller.CreateSubject(CreateSubject subject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\SubjectV1Controller.cs:line 42\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 06-04-2023 06:28:21 PM 
+Trace : {
+  "ex": {
+    "Code": 308,
+    "Description": "",
+    "RefData": {
+      "SubjectName": "Web Development",
+      "SubjectMaterial": [
+        {
+          "MaterialID": "a1848dd4-ee05-41f3-9864-056f324f4e52"
+        },
+        {
+          "MaterialID": "3393270d-b7e5-4643-a895-fc93abf142df"
+        },
+        {
+          "MaterialID": "edfd58bc-0ec2-48bc-b380-84e9fc0b591e"
+        }
+      ],
+      "CreatedBy": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+    },
+    "RefCommand": {
+      "Timeout": 30,
+      "Type": "StoredProcedure",
+      "Text": "uspCreateSubject",
+      "Params": [
+        {
+          "Name": "@SubjectName",
+          "UsrType": "String",
+          "UsrValue": "Web Development",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Web Development",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@CreatedBy",
+          "UsrType": "Guid",
+          "UsrValue": "9a5f11e3-0197-4918-a2ec-a1bea438e121",
+          "DbType": "UniqueIdentifier",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+          }
+        }
+      ],
+      "Connection": {
+        "State": "Open",
+        "Database": "iCloud_Academic",
+        "DataSource": "Data Source=OPTIMUS\\MSSQLSERVER2019;Initial Catalog=iCloud_Academic;Persist Security Info=True;User ID=dawn;Password=dawn_123;TrustServerCertificate=Yes;",
+        "Timeout": 15
+      }
+    },
+    "RefTrace": "   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteScalar()\r\n   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)",
+    "DawnExceptionStatusCode": 20,
+    "Message": "The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.\r\nCannot insert the value NULL into column 'Material', table 'iCloud_Academic.dbo.Subjects'; column does not allow nulls. INSERT fails.",
+    "Data": {},
+    "Source": "Database",
+    "HResult": -2146233088,
+    "StackTrace": "   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)\r\n   at iCloud.Academic.Repository.SubjectRepository.CreateSubject(CreateSubject subject, Guid actionBy) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Repository\\SubjectRepository.cs:line 23\r\n   at iCloud.Academic.Services.SubjectService.CreateSubject(CreateSubject subject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\SubjectService.cs:line 36\r\n   at iCloud.Academic.Controllers.SubjectV1Controller.CreateSubject(CreateSubject subject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\SubjectV1Controller.cs:line 42\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 06-04-2023 06:56:33 PM 
+Trace : {
+  "ex": {
+    "Code": 308,
+    "Description": "",
+    "RefData": {
+      "SubjectName": "Web Development",
+      "SubjectMaterial": [
+        {
+          "MaterialID": "a1848dd4-ee05-41f3-9864-056f324f4e52"
+        },
+        {
+          "MaterialID": "3393270d-b7e5-4643-a895-fc93abf142df"
+        },
+        {
+          "MaterialID": "edfd58bc-0ec2-48bc-b380-84e9fc0b591e"
+        }
+      ],
+      "CreatedBy": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+    },
+    "RefCommand": {
+      "Timeout": 30,
+      "Type": "StoredProcedure",
+      "Text": "uspCreateSubject",
+      "Params": [
+        {
+          "Name": "@SubjectName",
+          "UsrType": "String",
+          "UsrValue": "Web Development",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Web Development",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@CreatedBy",
+          "UsrType": "Guid",
+          "UsrValue": "9a5f11e3-0197-4918-a2ec-a1bea438e121",
+          "DbType": "UniqueIdentifier",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+          }
+        }
+      ],
+      "Connection": {
+        "State": "Open",
+        "Database": "iCloud_Academic",
+        "DataSource": "Data Source=OPTIMUS\\MSSQLSERVER2019;Initial Catalog=iCloud_Academic;Persist Security Info=True;User ID=dawn;Password=dawn_123;TrustServerCertificate=Yes;",
+        "Timeout": 15
+      }
+    },
+    "RefTrace": "   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteScalar()\r\n   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)",
+    "DawnExceptionStatusCode": 20,
+    "Message": "The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.\r\nCannot insert the value NULL into column 'Material', table 'iCloud_Academic.dbo.Subjects'; column does not allow nulls. INSERT fails.",
+    "Data": {},
+    "Source": "Database",
+    "HResult": -2146233088,
+    "StackTrace": "   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)\r\n   at iCloud.Academic.Repository.SubjectRepository.CreateSubject(CreateSubject subject, DataTable material, Guid actionBy) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Repository\\SubjectRepository.cs:line 24\r\n   at iCloud.Academic.Services.SubjectService.CreateSubject(CreateSubject subject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\SubjectService.cs:line 39\r\n   at iCloud.Academic.Controllers.SubjectV1Controller.CreateSubject(CreateSubject subject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\SubjectV1Controller.cs:line 42\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 06-04-2023 07:02:37 PM 
+Trace : {
+  "ex": {
+    "Code": 308,
+    "Description": "",
+    "RefData": {
+      "SubjectName": "Web Development",
+      "SubjectMaterial": [
+        {
+          "MaterialID": "a1848dd4-ee05-41f3-9864-056f324f4e52"
+        },
+        {
+          "MaterialID": "3393270d-b7e5-4643-a895-fc93abf142df"
+        },
+        {
+          "MaterialID": "edfd58bc-0ec2-48bc-b380-84e9fc0b591e"
+        }
+      ],
+      "CreatedBy": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+    },
+    "RefCommand": {
+      "Timeout": 30,
+      "Type": "StoredProcedure",
+      "Text": "uspCreateSubject",
+      "Params": [
+        {
+          "Name": "@SubjectName",
+          "UsrType": "String",
+          "UsrValue": "Web Development",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Web Development",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@CreatedBy",
+          "UsrType": "Guid",
+          "UsrValue": "9a5f11e3-0197-4918-a2ec-a1bea438e121",
+          "DbType": "UniqueIdentifier",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+          }
+        }
+      ],
+      "Connection": {
+        "State": "Open",
+        "Database": "iCloud_Academic",
+        "DataSource": "Data Source=OPTIMUS\\MSSQLSERVER2019;Initial Catalog=iCloud_Academic;Persist Security Info=True;User ID=dawn;Password=dawn_123;TrustServerCertificate=Yes;",
+        "Timeout": 15
+      }
+    },
+    "RefTrace": "   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteScalar()\r\n   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)",
+    "DawnExceptionStatusCode": 20,
+    "Message": "Cannot insert the value NULL into column 'Material', table 'iCloud_Academic.dbo.Subjects'; column does not allow nulls. INSERT fails.",
+    "Data": {},
+    "Source": "Database",
+    "HResult": -2146233088,
+    "StackTrace": "   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)\r\n   at iCloud.Academic.Repository.SubjectRepository.CreateSubject(CreateSubject subject, DataTable material, Guid actionBy) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Repository\\SubjectRepository.cs:line 24\r\n   at iCloud.Academic.Services.SubjectService.CreateSubject(CreateSubject subject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\SubjectService.cs:line 39\r\n   at iCloud.Academic.Controllers.SubjectV1Controller.CreateSubject(CreateSubject subject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\SubjectV1Controller.cs:line 42\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 06-04-2023 07:10:44 PM 
+Trace : {
+  "ex": {
+    "Code": 308,
+    "Description": "",
+    "RefData": {
+      "SubjectName": "Web Development",
+      "SubjectMaterial": [
+        {
+          "MaterialID": "a1848dd4-ee05-41f3-9864-056f324f4e52"
+        },
+        {
+          "MaterialID": "3393270d-b7e5-4643-a895-fc93abf142df"
+        },
+        {
+          "MaterialID": "edfd58bc-0ec2-48bc-b380-84e9fc0b591e"
+        }
+      ],
+      "CreatedBy": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+    },
+    "RefCommand": {
+      "Timeout": 30,
+      "Type": "StoredProcedure",
+      "Text": "uspCreateSubject",
+      "Params": [
+        {
+          "Name": "@SubjectName",
+          "UsrType": "String",
+          "UsrValue": "Web Development",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Web Development",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@CreatedBy",
+          "UsrType": "Guid",
+          "UsrValue": "9a5f11e3-0197-4918-a2ec-a1bea438e121",
+          "DbType": "UniqueIdentifier",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+          }
+        }
+      ],
+      "Connection": {
+        "State": "Open",
+        "Database": "iCloud_Academic",
+        "DataSource": "Data Source=OPTIMUS\\MSSQLSERVER2019;Initial Catalog=iCloud_Academic;Persist Security Info=True;User ID=dawn;Password=dawn_123;TrustServerCertificate=Yes;",
+        "Timeout": 15
+      }
+    },
+    "RefTrace": "   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteScalar()\r\n   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)",
+    "DawnExceptionStatusCode": 20,
+    "Message": "Cannot insert the value NULL into column 'Material', table 'iCloud_Academic.dbo.Subjects'; column does not allow nulls. INSERT fails.",
+    "Data": {},
+    "Source": "Database",
+    "HResult": -2146233088,
+    "StackTrace": "   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)\r\n   at iCloud.Academic.Repository.SubjectRepository.CreateSubject(CreateSubject subject, DataTable material, Guid actionBy) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Repository\\SubjectRepository.cs:line 24\r\n   at iCloud.Academic.Services.SubjectService.CreateSubject(CreateSubject subject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\SubjectService.cs:line 39\r\n   at iCloud.Academic.Controllers.SubjectV1Controller.CreateSubject(CreateSubject subject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\SubjectV1Controller.cs:line 42\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+

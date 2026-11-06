@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EntitiesDTO\EntitiesDTO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Database">
+      <HintPath>..\DawnDLL\Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Helper">
+      <HintPath>..\DawnDLL\Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Utilities">
+      <HintPath>..\DawnDLL\Utilities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

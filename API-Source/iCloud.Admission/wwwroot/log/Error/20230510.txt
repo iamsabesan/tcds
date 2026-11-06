@@ -1,0 +1,17 @@
+***************************************************************************************** 
+Date  : 10-05-2023 05:47:45 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Invalid column name 'Timing'.",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.BatchV1Controller.GetBatchByID(Guid courseBatchID) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\BatchV1Controller.cs:line 96\r\n   at lambda_method97(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+

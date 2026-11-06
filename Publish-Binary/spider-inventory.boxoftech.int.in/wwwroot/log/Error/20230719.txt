@@ -1,0 +1,68 @@
+***************************************************************************************** 
+Date  : 19-07-2023 03:23:29 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Not found",
+    "Data": {},
+    "Source": "iCloud.Inventory",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Inventory.Controllers.IndentV1Controller.CreateMaterialIndent(CreateNewMaterialIndent materialIndent) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\IndentV1Controller.cs:line 85\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 19-07-2023 03:27:00 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Not found",
+    "Data": {},
+    "Source": "iCloud.Inventory",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Inventory.Controllers.IndentV1Controller.CreateMaterialIndent(CreateNewMaterialIndent materialIndent) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\IndentV1Controller.cs:line 85\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 19-07-2023 03:31:31 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Couldn't create material indent",
+    "Data": {},
+    "Source": "iCloud.Inventory",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Inventory.Controllers.IndentV1Controller.CreateMaterialIndent(CreateNewMaterialIndent materialIndent) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\IndentV1Controller.cs:line 85\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 19-07-2023 03:40:17 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Not found",
+    "Data": {},
+    "Source": "iCloud.Inventory",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Inventory.Controllers.IndentV1Controller.GetMaterialIndentList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\IndentV1Controller.cs:line 431\r\n   at lambda_method93(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+

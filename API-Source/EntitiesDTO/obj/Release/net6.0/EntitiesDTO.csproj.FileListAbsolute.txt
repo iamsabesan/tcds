@@ -1,0 +1,30 @@
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\bin\Release\net6.0\EntitiesDTO.deps.json
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\bin\Release\net6.0\EntitiesDTO.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\bin\Release\net6.0\EntitiesDTO.pdb
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\bin\Release\net6.0\Helper.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\bin\Release\net6.0\Utilities.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.csproj.AssemblyReference.cache
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.AssemblyInfoInputs.cache
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.AssemblyInfo.cs
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.csproj.CoreCompileInputs.cache
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.csproj.CopyComplete
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Release\net6.0\refint\EntitiesDTO.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.pdb
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Release\net6.0\ref\EntitiesDTO.dll
+D:\Projects\TCDS\EntitiesDTO\bin\Release\net6.0\EntitiesDTO.deps.json
+D:\Projects\TCDS\EntitiesDTO\bin\Release\net6.0\EntitiesDTO.dll
+D:\Projects\TCDS\EntitiesDTO\bin\Release\net6.0\EntitiesDTO.pdb
+D:\Projects\TCDS\EntitiesDTO\bin\Release\net6.0\Helper.dll
+D:\Projects\TCDS\EntitiesDTO\bin\Release\net6.0\Utilities.dll
+D:\Projects\TCDS\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.csproj.AssemblyReference.cache
+D:\Projects\TCDS\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\TCDS\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.AssemblyInfoInputs.cache
+D:\Projects\TCDS\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.AssemblyInfo.cs
+D:\Projects\TCDS\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.csproj.CoreCompileInputs.cache
+D:\Projects\TCDS\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.csproj.CopyComplete
+D:\Projects\TCDS\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.dll
+D:\Projects\TCDS\EntitiesDTO\obj\Release\net6.0\refint\EntitiesDTO.dll
+D:\Projects\TCDS\EntitiesDTO\obj\Release\net6.0\EntitiesDTO.pdb
+D:\Projects\TCDS\EntitiesDTO\obj\Release\net6.0\ref\EntitiesDTO.dll

@@ -1,0 +1,20 @@
+***************************************************************************************** 
+Date  : 22-03-2023 04:51:05 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "Invalid column name 'PackageName'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at TCDS.Admin.Controllers.AdminV1Controller.SubscriptionfeesUpdation(CreatePackage createPackage) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admin\\Controllers\\AdminV1Controller.cs:line 49\r\n   at lambda_method53(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "iCloud.Admin",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+

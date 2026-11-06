@@ -1,0 +1,102 @@
+***************************************************************************************** 
+Date  : 01-08-2023 05:03:45 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Cannot deserialize the current JSON object (e.g. {\"name\":\"value\"}) into type 'System.Collections.Generic.List`1[EntitiesDTO.Admin.GetFranchiseeCode]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.\r\nTo fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.\r\nPath 'Code', line 2, position 9.",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.StudentV1Controller.GetCertificatePrintList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\StudentV1Controller.cs:line 629\r\n   at lambda_method129(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 01-08-2023 05:03:53 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Cannot deserialize the current JSON object (e.g. {\"name\":\"value\"}) into type 'System.Collections.Generic.List`1[EntitiesDTO.Admin.GetFranchiseeCode]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.\r\nTo fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.\r\nPath 'Code', line 2, position 9.",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.StudentV1Controller.GetMarkSheetPrintList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\StudentV1Controller.cs:line 650\r\n   at lambda_method165(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 01-08-2023 05:05:13 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Cannot deserialize the current JSON object (e.g. {\"name\":\"value\"}) into type 'System.Collections.Generic.List`1[EntitiesDTO.Admin.GetFranchiseeCode]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.\r\nTo fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.\r\nPath 'Code', line 2, position 9.",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.StudentV1Controller.GetCertificatePrintList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\StudentV1Controller.cs:line 629\r\n   at lambda_method129(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 01-08-2023 05:08:51 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Object reference not set to an instance of an object.",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.StudentV1Controller.GetCertificatePrintList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\StudentV1Controller.cs:line 629\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 01-08-2023 07:02:39 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Must declare the scalar variable \"@TenantBranchID\".",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.StudentV1Controller.MaterialIssuedList(String fromDate, String toDate) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\StudentV1Controller.cs:line 343\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 01-08-2023 07:04:02 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Must declare the scalar variable \"@TenantBranchID\".",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.StudentV1Controller.MaterialIssuedList(String fromDate, String toDate) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\StudentV1Controller.cs:line 343\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+

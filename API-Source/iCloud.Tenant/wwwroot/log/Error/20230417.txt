@@ -1,0 +1,102 @@
+***************************************************************************************** 
+Date  : 17-04-2023 06:41:01 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Incorrect syntax near '@TenantBranchID'.",
+    "Data": {},
+    "Source": "iCloud.Tenant",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Tenant.Controllers.BranchV1Controller.GetTenantBranchAndConatctByID(Guid tenantBranchID) in D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\Controllers\\BranchController.cs:line 128\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 17-04-2023 06:43:17 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Incorrect syntax near '@TenantBranchID'.",
+    "Data": {},
+    "Source": "iCloud.Tenant",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Tenant.Controllers.BranchV1Controller.GetTenantBranchAndConatctByID(Guid tenantBranchID) in D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\Controllers\\BranchController.cs:line 128\r\n   at lambda_method77(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 17-04-2023 06:43:43 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Incorrect syntax near '@TenantBranchID'.",
+    "Data": {},
+    "Source": "iCloud.Tenant",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Tenant.Controllers.BranchV1Controller.GetTenantBranchAndConatctByID(Guid tenantBranchID) in D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\Controllers\\BranchController.cs:line 128\r\n   at lambda_method77(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 17-04-2023 06:47:06 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Incorrect syntax near '@TenantBranchID'.",
+    "Data": {},
+    "Source": "iCloud.Tenant",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Tenant.Controllers.BranchV1Controller.GetTenantBranchAndConatctByID(Guid tenantBranchID) in D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\Controllers\\BranchController.cs:line 128\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 17-04-2023 06:48:56 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Incorrect syntax near '@TenantBranchID'.",
+    "Data": {},
+    "Source": "iCloud.Tenant",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Tenant.Controllers.BranchV1Controller.GetTenantBranchAndConatctByID(Guid tenantBranchID) in D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\Controllers\\BranchController.cs:line 128\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 17-04-2023 06:50:54 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "'sfnTenantBranchIsExist' is not a recognized built-in function name.",
+    "Data": {},
+    "Source": "iCloud.Tenant",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Tenant.Controllers.BranchV1Controller.GetTenantBranchAndConatctByID(Guid tenantBranchID) in D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\Controllers\\BranchController.cs:line 128\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+

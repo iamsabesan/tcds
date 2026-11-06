@@ -1,0 +1,51 @@
+***************************************************************************************** 
+Date  : 01-08-2023 05:03:44 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Invalid column name 'BranchCode'.",
+    "Data": {},
+    "Source": "iCloud.Franchisee",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.GetFranchiseeID() in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 258\r\n   at lambda_method41(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 01-08-2023 05:03:53 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Invalid column name 'BranchCode'.",
+    "Data": {},
+    "Source": "iCloud.Franchisee",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.GetFranchiseeID() in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 258\r\n   at lambda_method41(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 01-08-2023 05:05:13 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Invalid column name 'BranchCode'.",
+    "Data": {},
+    "Source": "iCloud.Franchisee",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.GetFranchiseeID() in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 258\r\n   at lambda_method41(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+

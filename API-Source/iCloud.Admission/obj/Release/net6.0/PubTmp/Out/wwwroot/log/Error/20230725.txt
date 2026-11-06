@@ -1,0 +1,68 @@
+***************************************************************************************** 
+Date  : 25-07-2023 01:02:42 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Invalid column name 'StartDate'.\r\nInvalid column name 'EndDate'.",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.BatchV1Controller.GetBatchByID(Guid courseBatchID) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\BatchV1Controller.cs:line 96\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 25-07-2023 01:02:54 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Could not Convert(StartDate) DateTime as DateTime",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.BatchV1Controller.GetBatchByID(Guid courseBatchID) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\BatchV1Controller.cs:line 96\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 25-07-2023 01:04:13 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Could not Convert(StartDate) DateTime as DateOnly",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.BatchV1Controller.GetBatchByID(Guid courseBatchID) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\BatchV1Controller.cs:line 96\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 25-07-2023 01:07:09 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Could not Convert(StartDate) DateTime as DateTime",
+    "Data": {},
+    "Source": "iCloud.Admission",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Admission.Controllers.BatchV1Controller.GetBatchByID(Guid courseBatchID) in D:\\Projects\\iCloud\\iCloud\\iCloud.Admission\\Controllers\\BatchV1Controller.cs:line 96\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+

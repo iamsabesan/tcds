@@ -1,0 +1,60 @@
+***************************************************************************************** 
+Date  : 08-08-2023 12:04:35 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.IndexOutOfRangeException",
+    "Message": "Cannot find table 4.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.Data.DataTableCollection.get_Item(Int32 index)\r\n   at iCloud.Franchisee.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Services\\FranchiseeService.cs:line 313\r\n   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 113\r\n   at lambda_method41(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233080,
+    "Source": "System.Data.Common",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 08-08-2023 12:05:01 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.IndexOutOfRangeException",
+    "Message": "Cannot find table 4.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.Data.DataTableCollection.get_Item(Int32 index)\r\n   at iCloud.Franchisee.Services.FranchiseeService.GetFranchiseeInfos() in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Services\\FranchiseeService.cs:line 313\r\n   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.GetFranchiseeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 113\r\n   at lambda_method41(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233080,
+    "Source": "System.Data.Common",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 08-08-2023 04:24:45 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "Payment id not found !",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at iCloud.Franchisee.Services.FranchiseeService.ActivateFranchisee(ActivateFranchisee activate) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Services\\FranchiseeService.cs:line 245\r\n   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.ActivateFranchisee(ActivateFranchisee franchisee) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 91\r\n   at lambda_method41(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "iCloud.Franchisee",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+

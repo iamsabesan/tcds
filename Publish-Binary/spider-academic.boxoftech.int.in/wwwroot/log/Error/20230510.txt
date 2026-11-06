@@ -1,0 +1,119 @@
+***************************************************************************************** 
+Date  : 10-05-2023 04:03:28 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Could not find stored procedure 'uspGetSubjectList'.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.SubjectV1Controller.GetMaterialTypeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\SubjectV1Controller.cs:line 69\r\n   at lambda_method62(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 10-05-2023 04:05:09 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Unable to cast object of type 'System.String' to type 'System.Guid'.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.SubjectV1Controller.GetMaterialTypeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\SubjectV1Controller.cs:line 69\r\n   at lambda_method62(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 10-05-2023 04:18:20 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Unable to cast object of type 'System.String' to type 'System.Guid'.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.SubjectV1Controller.GetMaterialTypeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\SubjectV1Controller.cs:line 69\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 10-05-2023 05:12:24 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Unable to cast object of type 'System.String' to type 'System.Guid'.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.SubjectV1Controller.GetMaterialTypeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\SubjectV1Controller.cs:line 69\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 10-05-2023 05:17:50 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Unable to cast object of type 'System.String' to type 'System.Guid'.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.SubjectV1Controller.GetMaterialTypeList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\SubjectV1Controller.cs:line 69\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 10-05-2023 05:36:53 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Cannot insert the value NULL into column 'CourseTypeID', table 'iCloud_Academic.dbo.Courses'; column does not allow nulls. INSERT fails.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.CourseV1Controller.CreateCourse(CreateNewCourse newCourse) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 71\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 10-05-2023 05:41:20 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Conversion failed when converting from a character string to uniqueidentifier.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.CourseV1Controller.CreateCourse(CreateNewCourse newCourse) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 71\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+

@@ -1,0 +1,6 @@
+***************************************************************************************** 
+Date  : 08-04-2025 04:14:34 PM 
+Entity : {"FranchiseeCode":"TCDS001"} 
+Cmd-Text : UPDATE FranchiseeEnquiryDetail SET [FranchiseeCode] = @FranchiseeCode,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+

@@ -1,0 +1,34 @@
+***************************************************************************************** 
+Date  : 16-06-2023 11:12:30 AM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Cannot open database \"News_Service\" requested by the login. The login failed.\r\nLogin failed for user 'dawn'.",
+    "Data": {},
+    "Source": "News",
+    "HResult": -2146233088,
+    "StackTrace": "   at News.Controller.NewsV1Controller.CreateNews(CreateNews news) in D:\\Projects\\iCloud\\iCloud\\News\\Controller\\NewsV1Controller.cs:line 54\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 16-06-2023 11:13:59 AM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Cannot open database \"News_Service\" requested by the login. The login failed.\r\nLogin failed for user 'dawn'.",
+    "Data": {},
+    "Source": "News",
+    "HResult": -2146233088,
+    "StackTrace": "   at News.Controller.NewsV1Controller.CreateNews(CreateNews news) in D:\\Projects\\iCloud\\iCloud\\News\\Controller\\NewsV1Controller.cs:line 54\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+

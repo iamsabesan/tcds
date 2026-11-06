@@ -1,0 +1,6 @@
+***************************************************************************************** 
+Date  : 21-04-2025 08:50:34 AM 
+Entity : {"IsCompleted":1} 
+Cmd-Text : UPDATE StudentBatchMapping SET [IsCompleted] = @IsCompleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+

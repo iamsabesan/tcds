@@ -1,0 +1,85 @@
+***************************************************************************************** 
+Date  : 26-04-2023 06:18:47 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Cannot insert the value NULL into column 'TransactionTypeID', table 'iCloud_Payment.dbo.TenantBranchReceiptAndPayment'; column does not allow nulls. INSERT fails.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 79\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 26-04-2023 06:20:21 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Unable to cast object of type 'System.Int32' to type 'System.Guid'.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 79\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 26-04-2023 06:24:29 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Unable to cast object of type 'System.Int32' to type 'System.Guid'.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 79\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 26-04-2023 06:58:03 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Unable to cast object of type 'System.Int32' to type 'System.Guid'.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 79\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 26-04-2023 07:11:18 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Unable to cast object of type 'System.Int32' to type 'System.Guid'.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 79\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+

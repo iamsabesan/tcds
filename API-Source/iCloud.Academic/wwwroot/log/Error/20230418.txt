@@ -1,0 +1,852 @@
+***************************************************************************************** 
+Date  : 18-04-2023 03:41:12 PM 
+Trace : {
+  "ex": {
+    "Code": 308,
+    "Description": "",
+    "RefData": {
+      "ShortName": "Web",
+      "FullName": "Web Development",
+      "CertificateName": "Advanced Web Development",
+      "CourseType": "CERTIFICATE",
+      "Duration": 3,
+      "DurationType": "Months",
+      "TotalSemester": 1,
+      "CourseFees": 30000.0,
+      "ExamFees": 200.0,
+      "AdmissionFees": 1500.0,
+      "CreatedBy": "9a5f11e3-0197-4918-a2ec-a1bea438e121",
+      "SubjectMapping": [
+        {
+          "SubjectID": "c25eb97e-ca38-4d88-bd08-5ba288bb485a",
+          "MaterialID": "a1848dd4-ee05-41f3-9864-056f324f4e52",
+          "Semester": 1,
+          "TheoryMark": 75,
+          "PracticalMark": 25
+        },
+        {
+          "SubjectID": "0b2ef41e-fcf4-4009-a982-0f60a7704888",
+          "MaterialID": "3393270d-b7e5-4643-a895-fc93abf142df",
+          "Semester": 1,
+          "TheoryMark": 80,
+          "PracticalMark": 20
+        }
+      ]
+    },
+    "RefCommand": {
+      "Timeout": 30,
+      "Type": "StoredProcedure",
+      "Text": "uspCreateCourse",
+      "Params": [
+        {
+          "Name": "@ShortName",
+          "UsrType": "String",
+          "UsrValue": "Web",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Web",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@FullName",
+          "UsrType": "String",
+          "UsrValue": "Web Development",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Web Development",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@CertificateName",
+          "UsrType": "String",
+          "UsrValue": "Advanced Web Development",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Advanced Web Development",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@CourseType",
+          "UsrType": "String",
+          "UsrValue": "CERTIFICATE",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "CERTIFICATE",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@Duration",
+          "UsrType": "Int32",
+          "UsrValue": 3,
+          "DbType": "Int",
+          "DbValue": {
+            "IsNull": false,
+            "Value": 3
+          }
+        },
+        {
+          "Name": "@DurationType",
+          "UsrType": "String",
+          "UsrValue": "Months",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Months",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@TotalSemester",
+          "UsrType": "Int32",
+          "UsrValue": 1,
+          "DbType": "Int",
+          "DbValue": {
+            "IsNull": false,
+            "Value": 1
+          }
+        },
+        {
+          "Name": "@CourseFees",
+          "UsrType": "Decimal",
+          "UsrValue": 30000.0,
+          "DbType": "Decimal",
+          "DbValue": {
+            "IsNull": false,
+            "Value": 30000.0,
+            "IsPositive": true,
+            "Precision": 5,
+            "Scale": 0,
+            "Data": [
+              30000,
+              0,
+              0,
+              0
+            ],
+            "BinData": "MHUAAAAAAAAAAAAAAAAAAA=="
+          }
+        },
+        {
+          "Name": "@ExamFees",
+          "UsrType": "Decimal",
+          "UsrValue": 200.0,
+          "DbType": "Decimal",
+          "DbValue": {
+            "IsNull": false,
+            "Value": 200.0,
+            "IsPositive": true,
+            "Precision": 3,
+            "Scale": 0,
+            "Data": [
+              200,
+              0,
+              0,
+              0
+            ],
+            "BinData": "yAAAAAAAAAAAAAAAAAAAAA=="
+          }
+        },
+        {
+          "Name": "@AdmissionFees",
+          "UsrType": "Decimal",
+          "UsrValue": 1500.0,
+          "DbType": "Decimal",
+          "DbValue": {
+            "IsNull": false,
+            "Value": 1500.0,
+            "IsPositive": true,
+            "Precision": 4,
+            "Scale": 0,
+            "Data": [
+              1500,
+              0,
+              0,
+              0
+            ],
+            "BinData": "3AUAAAAAAAAAAAAAAAAAAA=="
+          }
+        },
+        {
+          "Name": "@CreatedBy",
+          "UsrType": "Guid",
+          "UsrValue": "9a5f11e3-0197-4918-a2ec-a1bea438e121",
+          "DbType": "UniqueIdentifier",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+          }
+        },
+        {
+          "Name": "@SubjectMapping",
+          "UsrType": "Object",
+          "UsrValue": [
+            {
+              "SubjectID": "c25eb97e-ca38-4d88-bd08-5ba288bb485a",
+              "MaterialID": "a1848dd4-ee05-41f3-9864-056f324f4e52",
+              "Semester": 1,
+              "TheoryMark": 75,
+              "PracticalMark": 25
+            },
+            {
+              "SubjectID": "0b2ef41e-fcf4-4009-a982-0f60a7704888",
+              "MaterialID": "3393270d-b7e5-4643-a895-fc93abf142df",
+              "Semester": 1,
+              "TheoryMark": 80,
+              "PracticalMark": 20
+            }
+          ],
+          "DbType": "Structured"
+        }
+      ],
+      "Connection": {
+        "State": "Open",
+        "Database": "iCloud_Academic",
+        "DataSource": "Data Source=OPTIMUS\\MSSQLSERVER2019;Initial Catalog=iCloud_Academic;Persist Security Info=True;User ID=dawn;Password=dawn_123;TrustServerCertificate=Yes;",
+        "Timeout": 15
+      }
+    },
+    "RefTrace": "   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteScalar()\r\n   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)",
+    "DawnExceptionStatusCode": 20,
+    "Message": "Procedure or function 'uspCreateCourse' expects parameter '@DuratioType', which was not supplied.",
+    "Data": {},
+    "Source": "Database",
+    "HResult": -2146233088,
+    "StackTrace": "   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)\r\n   at iCloud.Academic.Repository.CourseRepository.CreateCourse(CreateNewCourse course, DataTable subjectMap, Guid actionBy) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Repository\\CourseRepository.cs:line 58\r\n   at iCloud.Academic.Services.CourseService.CreateCourse(CreateNewCourse course) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 43\r\n   at iCloud.Academic.Controllers.CourseV1Controller.CreateSubject(CreateNewCourse newCourse) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 58\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 03:42:30 PM 
+Trace : {
+  "ex": {
+    "Code": 308,
+    "Description": "",
+    "RefData": {
+      "ShortName": "Web",
+      "FullName": "Web Development",
+      "CertificateName": "Advanced Web Development",
+      "CourseType": "CERTIFICATE",
+      "Duration": 3,
+      "DurationType": "Months",
+      "TotalSemester": 1,
+      "CourseFees": 30000.0,
+      "ExamFees": 200.0,
+      "AdmissionFees": 1500.0,
+      "CreatedBy": "9a5f11e3-0197-4918-a2ec-a1bea438e121",
+      "SubjectMapping": [
+        {
+          "SubjectID": "c25eb97e-ca38-4d88-bd08-5ba288bb485a",
+          "MaterialID": "a1848dd4-ee05-41f3-9864-056f324f4e52",
+          "Semester": 1,
+          "TheoryMark": 75,
+          "PracticalMark": 25
+        },
+        {
+          "SubjectID": "0b2ef41e-fcf4-4009-a982-0f60a7704888",
+          "MaterialID": "3393270d-b7e5-4643-a895-fc93abf142df",
+          "Semester": 1,
+          "TheoryMark": 80,
+          "PracticalMark": 20
+        }
+      ]
+    },
+    "RefCommand": {
+      "Timeout": 30,
+      "Type": "StoredProcedure",
+      "Text": "uspCreateCourse",
+      "Params": [
+        {
+          "Name": "@ShortName",
+          "UsrType": "String",
+          "UsrValue": "Web",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Web",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@FullName",
+          "UsrType": "String",
+          "UsrValue": "Web Development",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Web Development",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@CertificateName",
+          "UsrType": "String",
+          "UsrValue": "Advanced Web Development",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Advanced Web Development",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@CourseType",
+          "UsrType": "String",
+          "UsrValue": "CERTIFICATE",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "CERTIFICATE",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@Duration",
+          "UsrType": "Int32",
+          "UsrValue": 3,
+          "DbType": "Int",
+          "DbValue": {
+            "IsNull": false,
+            "Value": 3
+          }
+        },
+        {
+          "Name": "@DurationType",
+          "UsrType": "String",
+          "UsrValue": "Months",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Months",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@TotalSemester",
+          "UsrType": "Int32",
+          "UsrValue": 1,
+          "DbType": "Int",
+          "DbValue": {
+            "IsNull": false,
+            "Value": 1
+          }
+        },
+        {
+          "Name": "@CourseFees",
+          "UsrType": "Decimal",
+          "UsrValue": 30000.0,
+          "DbType": "Decimal",
+          "DbValue": {
+            "IsNull": false,
+            "Value": 30000.0,
+            "IsPositive": true,
+            "Precision": 5,
+            "Scale": 0,
+            "Data": [
+              30000,
+              0,
+              0,
+              0
+            ],
+            "BinData": "MHUAAAAAAAAAAAAAAAAAAA=="
+          }
+        },
+        {
+          "Name": "@ExamFees",
+          "UsrType": "Decimal",
+          "UsrValue": 200.0,
+          "DbType": "Decimal",
+          "DbValue": {
+            "IsNull": false,
+            "Value": 200.0,
+            "IsPositive": true,
+            "Precision": 3,
+            "Scale": 0,
+            "Data": [
+              200,
+              0,
+              0,
+              0
+            ],
+            "BinData": "yAAAAAAAAAAAAAAAAAAAAA=="
+          }
+        },
+        {
+          "Name": "@AdmissionFees",
+          "UsrType": "Decimal",
+          "UsrValue": 1500.0,
+          "DbType": "Decimal",
+          "DbValue": {
+            "IsNull": false,
+            "Value": 1500.0,
+            "IsPositive": true,
+            "Precision": 4,
+            "Scale": 0,
+            "Data": [
+              1500,
+              0,
+              0,
+              0
+            ],
+            "BinData": "3AUAAAAAAAAAAAAAAAAAAA=="
+          }
+        },
+        {
+          "Name": "@CreatedBy",
+          "UsrType": "Guid",
+          "UsrValue": "9a5f11e3-0197-4918-a2ec-a1bea438e121",
+          "DbType": "UniqueIdentifier",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+          }
+        },
+        {
+          "Name": "@SubjectMapping",
+          "UsrType": "Object",
+          "UsrValue": [
+            {
+              "SubjectID": "c25eb97e-ca38-4d88-bd08-5ba288bb485a",
+              "MaterialID": "a1848dd4-ee05-41f3-9864-056f324f4e52",
+              "Semester": 1,
+              "TheoryMark": 75,
+              "PracticalMark": 25
+            },
+            {
+              "SubjectID": "0b2ef41e-fcf4-4009-a982-0f60a7704888",
+              "MaterialID": "3393270d-b7e5-4643-a895-fc93abf142df",
+              "Semester": 1,
+              "TheoryMark": 80,
+              "PracticalMark": 20
+            }
+          ],
+          "DbType": "Structured"
+        }
+      ],
+      "Connection": {
+        "State": "Open",
+        "Database": "iCloud_Academic",
+        "DataSource": "Data Source=OPTIMUS\\MSSQLSERVER2019;Initial Catalog=iCloud_Academic;Persist Security Info=True;User ID=dawn;Password=dawn_123;TrustServerCertificate=Yes;",
+        "Timeout": 15
+      }
+    },
+    "RefTrace": "   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteScalar()\r\n   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)",
+    "DawnExceptionStatusCode": 20,
+    "Message": "String or binary data would be truncated in table 'iCloud_Academic.dbo.Courses', column 'DurationType'. Truncated value: 'Month'.",
+    "Data": {},
+    "Source": "Database",
+    "HResult": -2146233088,
+    "StackTrace": "   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)\r\n   at iCloud.Academic.Repository.CourseRepository.CreateCourse(CreateNewCourse course, DataTable subjectMap, Guid actionBy) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Repository\\CourseRepository.cs:line 58\r\n   at iCloud.Academic.Services.CourseService.CreateCourse(CreateNewCourse course) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 43\r\n   at iCloud.Academic.Controllers.CourseV1Controller.CreateSubject(CreateNewCourse newCourse) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 58\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 04:00:38 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "The given course name is already exists !",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at iCloud.Academic.Services.CourseService.CreateCourse(CreateNewCourse course) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 41\r\n   at iCloud.Academic.Controllers.CourseV1Controller.CreateSubject(CreateNewCourse newCourse) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 58\r\n   at lambda_method41(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "iCloud.Academic",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 05:22:22 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Procedure uspGetCourseList has no parameters and arguments were supplied.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 80\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 05:25:23 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Procedure uspGetCourseList has no parameters and arguments were supplied.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 80\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 05:25:59 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Procedure uspGetCourseList has no parameters and arguments were supplied.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 80\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 05:30:44 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Int32'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 111\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Academic.Services.CourseService.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 57\r\n   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 76\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 05:32:16 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Int32'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 111\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Academic.Services.CourseService.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 57\r\n   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 76\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 05:34:17 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Int32'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 111\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Academic.Services.CourseService.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 57\r\n   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 76\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 05:38:21 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Int32'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 111\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Academic.Services.CourseService.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 57\r\n   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 76\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 06:10:00 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Int32'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 111\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Academic.Services.CourseService.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 71\r\n   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 76\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 06:16:46 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Int32'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 111\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Academic.Services.CourseService.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 71\r\n   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 76\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 07:05:57 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Int32'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 111\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Academic.Services.CourseService.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 58\r\n   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 76\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 07:09:24 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Int32'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 111\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Academic.Services.CourseService.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 58\r\n   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 76\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 07:11:19 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Int32'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 111\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Academic.Services.CourseService.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 58\r\n   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 76\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 07:17:24 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Int32'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 111\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Academic.Services.CourseService.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 58\r\n   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 76\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 18-04-2023 07:26:45 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "Object of type 'System.String' cannot be converted to type 'System.Int32'.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)\r\n   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)\r\n   at System.Reflection.MethodBase.CheckArguments(StackAllocedArguments& stackArgs, ReadOnlySpan`1 parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeOneParameter(Object obj, BindingFlags invokeAttr, Binder binder, Object parameter, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)\r\n   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)\r\n   at EntitiesDTO.Utilities.Extensions.GetItem[T](DataRow dr) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 106\r\n   at EntitiesDTO.Utilities.Extensions.DataTablesToList[T](DataTable dt) in D:\\Projects\\iCloud\\iCloud\\EntitiesDTO\\Utilities\\Extensions.cs:line 80\r\n   at iCloud.Academic.Services.CourseService.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Services\\CourseService.cs:line 58\r\n   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 76\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+

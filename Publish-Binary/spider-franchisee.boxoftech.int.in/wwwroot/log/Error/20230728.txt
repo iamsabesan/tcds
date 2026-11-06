@@ -1,0 +1,42 @@
+***************************************************************************************** 
+Date  : 28-07-2023 01:14:11 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentNullException",
+    "Message": "Value cannot be null.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.Guid.Parse(String input)\r\n   at iCloud.Franchisee.Services.FranchiseeService.ActivateFranchisee(ActivateFranchisee activate) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Services\\FranchiseeService.cs:line 191\r\n   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.ActivateFranchisee(ActivateFranchisee franchisee) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 91\r\n   at lambda_method41(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147467261,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": "input"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 28-07-2023 01:40:36 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentNullException",
+    "Message": "Value cannot be null.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at System.Guid.Parse(String input)\r\n   at iCloud.Franchisee.Services.FranchiseeService.ActivateFranchisee(ActivateFranchisee activate) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Services\\FranchiseeService.cs:line 192\r\n   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.ActivateFranchisee(ActivateFranchisee franchisee) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 91\r\n   at lambda_method41(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147467261,
+    "Source": "System.Private.CoreLib",
+    "WatsonBuckets": null,
+    "ParamName": "input"
+  }
+} 
+***************************************************************************************** 
+

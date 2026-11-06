@@ -1,0 +1,45 @@
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\bin\Debug\net6.0\EntitiesDTO.deps.json
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\bin\Debug\net6.0\EntitiesDTO.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\bin\Debug\net6.0\EntitiesDTO.pdb
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\bin\Debug\net6.0\Helper.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\bin\Debug\net6.0\Utilities.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.csproj.AssemblyReference.cache
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.AssemblyInfoInputs.cache
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.AssemblyInfo.cs
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.csproj.CoreCompileInputs.cache
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.csproj.CopyComplete
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Debug\net6.0\refint\EntitiesDTO.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.pdb
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\EntitiesDTO\obj\Debug\net6.0\ref\EntitiesDTO.dll
+D:\Projects\TCDS\EntitiesDTO\bin\Debug\net6.0\EntitiesDTO.deps.json
+D:\Projects\TCDS\EntitiesDTO\bin\Debug\net6.0\EntitiesDTO.dll
+D:\Projects\TCDS\EntitiesDTO\bin\Debug\net6.0\EntitiesDTO.pdb
+D:\Projects\TCDS\EntitiesDTO\bin\Debug\net6.0\Helper.dll
+D:\Projects\TCDS\EntitiesDTO\bin\Debug\net6.0\Utilities.dll
+D:\Projects\TCDS\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.csproj.AssemblyReference.cache
+D:\Projects\TCDS\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\TCDS\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.AssemblyInfoInputs.cache
+D:\Projects\TCDS\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.AssemblyInfo.cs
+D:\Projects\TCDS\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.csproj.CoreCompileInputs.cache
+D:\Projects\TCDS\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.csproj.CopyComplete
+D:\Projects\TCDS\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.dll
+D:\Projects\TCDS\EntitiesDTO\obj\Debug\net6.0\refint\EntitiesDTO.dll
+D:\Projects\TCDS\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.pdb
+D:\Projects\TCDS\EntitiesDTO\obj\Debug\net6.0\ref\EntitiesDTO.dll
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\bin\Debug\net6.0\EntitiesDTO.deps.json
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\bin\Debug\net6.0\EntitiesDTO.dll
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\bin\Debug\net6.0\EntitiesDTO.pdb
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\bin\Debug\net6.0\Helper.dll
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\bin\Debug\net6.0\Utilities.dll
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.csproj.AssemblyReference.cache
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.GeneratedMSBuildEditorConfig.editorconfig
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.AssemblyInfoInputs.cache
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.AssemblyInfo.cs
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.csproj.CoreCompileInputs.cache
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\obj\Debug\net6.0\Entities.ECE6CC85.Up2Date
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.dll
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\obj\Debug\net6.0\refint\EntitiesDTO.dll
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\obj\Debug\net6.0\EntitiesDTO.pdb
+E:\TCDS_Hand_Over_Source\API-Source\EntitiesDTO\obj\Debug\net6.0\ref\EntitiesDTO.dll

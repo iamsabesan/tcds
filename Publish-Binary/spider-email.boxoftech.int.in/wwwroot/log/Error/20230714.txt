@@ -1,0 +1,17 @@
+***************************************************************************************** 
+Date  : 14-07-2023 01:15:44 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "String or binary data would be truncated in table 'tempdb.dbo.#A625E968', column 'ContentType'. Truncated value: 'applicatio'.\r\nThe data for table-valued parameter \"@SupportDocumentItems\" doesn't conform to the table type of the parameter. SQL Server error is: 2628, state: 1\r\nThe statement has been terminated.",
+    "Data": {},
+    "Source": "Email",
+    "HResult": -2146233088,
+    "StackTrace": "   at Email.Controllers.EmailV1Controller.CreateMail(CreateMail mail) in D:\\Projects\\iCloud\\iCloud\\Email\\Controllers\\EmailV1Controller.cs:line 53\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+

@@ -1,0 +1,51 @@
+***************************************************************************************** 
+Date  : 13-07-2023 01:10:36 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Must declare the scalar variable \"@TenantBranchID\".",
+    "Data": {},
+    "Source": "iCloud.Inventory",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Inventory.Controllers.IndentV1Controller.GetIndentSummaryByFranchisee() in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\IndentV1Controller.cs:line 808\r\n   at lambda_method52(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 13-07-2023 01:12:10 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Must declare the scalar variable \"@TenantBranchID\".",
+    "Data": {},
+    "Source": "iCloud.Inventory",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Inventory.Controllers.IndentV1Controller.GetIndentSummaryByFranchisee() in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\IndentV1Controller.cs:line 808\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 13-07-2023 01:12:51 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Must declare the scalar variable \"@TenantBranchID\".",
+    "Data": {},
+    "Source": "iCloud.Inventory",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Inventory.Controllers.IndentV1Controller.GetIndentSummaryByFranchisee() in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\IndentV1Controller.cs:line 808\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+

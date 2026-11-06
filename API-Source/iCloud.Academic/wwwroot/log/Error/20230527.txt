@@ -1,0 +1,68 @@
+***************************************************************************************** 
+Date  : 27-05-2023 10:19:47 AM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Not found",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseMappingList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 203\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 27-05-2023 10:35:21 AM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Invalid column name 'CoursesID'.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.CourseV1Controller.CreateCourseMapping(CourseMapping courseMapping) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 187\r\n   at lambda_method62(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 27-05-2023 10:39:06 AM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Invalid column name 'CoursesID'.\r\nInvalid column name 'CoursesID'.\r\nCould not use view or function 'dbo.tfnGetCourseMappingList' because of binding errors.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseMappingList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 203\r\n   at lambda_method68(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 27-05-2023 10:46:08 AM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Object reference not set to an instance of an object.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.CourseV1Controller.GetCourseMappingList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 203\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+

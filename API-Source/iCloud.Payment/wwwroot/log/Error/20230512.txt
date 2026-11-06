@@ -1,0 +1,119 @@
+***************************************************************************************** 
+Date  : 12-05-2023 12:13:38 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.\r\nCannot insert the value NULL into column 'TransactionTypeID', table 'iCloud_Payment.dbo.AdminReceiptAndPayment'; column does not allow nulls. INSERT fails.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 77\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 12-05-2023 12:31:30 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.\r\nCannot insert the value NULL into column 'TransactionTypeID', table 'iCloud_Payment.dbo.AdminReceiptAndPayment'; column does not allow nulls. INSERT fails.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 77\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 12-05-2023 12:32:41 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.\r\nCannot insert the value NULL into column 'TransactionTypeID', table 'iCloud_Payment.dbo.AdminReceiptAndPayment'; column does not allow nulls. INSERT fails.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 77\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 12-05-2023 03:18:21 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Unable to cast object of type 'System.DBNull' to type 'System.Decimal'.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.WalletV1Controller.GetWalletRequestList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\WalletV1Controller.cs:line 137\r\n   at lambda_method70(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 12-05-2023 03:24:23 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Unable to cast object of type 'System.DBNull' to type 'System.Decimal'.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.WalletV1Controller.GetWalletRequestList() in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\WalletV1Controller.cs:line 137\r\n   at lambda_method70(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 12-05-2023 03:38:00 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Object reference not set to an instance of an object.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.WalletV1Controller.RejectWalletRequest(RejectWallet reject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\WalletV1Controller.cs:line 71\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 12-05-2023 03:40:14 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Invalid wallet id",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.WalletV1Controller.RejectWalletRequest(RejectWallet reject) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\WalletV1Controller.cs:line 71\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+

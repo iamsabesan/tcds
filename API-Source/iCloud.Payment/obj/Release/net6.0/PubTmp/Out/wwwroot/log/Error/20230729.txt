@@ -1,0 +1,34 @@
+***************************************************************************************** 
+Date  : 29-07-2023 01:15:26 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.\r\nCannot insert the value NULL into column 'TransactionTypeID', table 'iCloud_Payment.dbo.AdminReceiptAndPayment'; column does not allow nulls. INSERT fails.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.CreatePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 78\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 29-07-2023 01:19:34 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.\r\nCannot insert the value NULL into column 'TransactionTypeID', table 'iCloud_Payment.dbo.AdminReceiptAndPayment'; column does not allow nulls. INSERT fails.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.CreatePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 78\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+

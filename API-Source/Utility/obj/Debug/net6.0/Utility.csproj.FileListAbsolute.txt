@@ -1,0 +1,12 @@
+D:\Projects\iCloud\iCloud\Utility\bin\Debug\net6.0\Utility.deps.json
+D:\Projects\iCloud\iCloud\Utility\bin\Debug\net6.0\Utility.dll
+D:\Projects\iCloud\iCloud\Utility\bin\Debug\net6.0\Utility.pdb
+D:\Projects\iCloud\iCloud\Utility\obj\Debug\net6.0\Utility.csproj.AssemblyReference.cache
+D:\Projects\iCloud\iCloud\Utility\obj\Debug\net6.0\Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\iCloud\iCloud\Utility\obj\Debug\net6.0\Utility.AssemblyInfoInputs.cache
+D:\Projects\iCloud\iCloud\Utility\obj\Debug\net6.0\Utility.AssemblyInfo.cs
+D:\Projects\iCloud\iCloud\Utility\obj\Debug\net6.0\Utility.csproj.CoreCompileInputs.cache
+D:\Projects\iCloud\iCloud\Utility\obj\Debug\net6.0\Utility.dll
+D:\Projects\iCloud\iCloud\Utility\obj\Debug\net6.0\refint\Utility.dll
+D:\Projects\iCloud\iCloud\Utility\obj\Debug\net6.0\Utility.pdb
+D:\Projects\iCloud\iCloud\Utility\obj\Debug\net6.0\ref\Utility.dll

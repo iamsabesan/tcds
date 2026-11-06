@@ -1,0 +1,36 @@
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\bin\Release\net6.0\CommonServices.deps.json
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\bin\Release\net6.0\CommonServices.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\bin\Release\net6.0\CommonServices.pdb
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\bin\Release\net6.0\EntitiesDTO.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\bin\Release\net6.0\Helper.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\bin\Release\net6.0\Utilities.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\bin\Release\net6.0\EntitiesDTO.pdb
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\obj\Release\net6.0\CommonServices.csproj.AssemblyReference.cache
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\obj\Release\net6.0\CommonServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\obj\Release\net6.0\CommonServices.AssemblyInfoInputs.cache
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\obj\Release\net6.0\CommonServices.AssemblyInfo.cs
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\obj\Release\net6.0\CommonServices.csproj.CoreCompileInputs.cache
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\obj\Release\net6.0\CommonServices.csproj.CopyComplete
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\obj\Release\net6.0\CommonServices.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\obj\Release\net6.0\refint\CommonServices.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\obj\Release\net6.0\CommonServices.pdb
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\obj\Release\net6.0\ref\CommonServices.dll
+C:\Users\Sakthivelb\Desktop\svn iCloud\trunk\Api-Server\CommonServices\bin\Release\net6.0\Database.dll
+D:\Projects\TCDS\CommonServices\bin\Release\net6.0\CommonServices.deps.json
+D:\Projects\TCDS\CommonServices\bin\Release\net6.0\CommonServices.dll
+D:\Projects\TCDS\CommonServices\bin\Release\net6.0\CommonServices.pdb
+D:\Projects\TCDS\CommonServices\bin\Release\net6.0\Database.dll
+D:\Projects\TCDS\CommonServices\bin\Release\net6.0\EntitiesDTO.dll
+D:\Projects\TCDS\CommonServices\bin\Release\net6.0\Helper.dll
+D:\Projects\TCDS\CommonServices\bin\Release\net6.0\Utilities.dll
+D:\Projects\TCDS\CommonServices\bin\Release\net6.0\EntitiesDTO.pdb
+D:\Projects\TCDS\CommonServices\obj\Release\net6.0\CommonServices.csproj.AssemblyReference.cache
+D:\Projects\TCDS\CommonServices\obj\Release\net6.0\CommonServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\TCDS\CommonServices\obj\Release\net6.0\CommonServices.AssemblyInfoInputs.cache
+D:\Projects\TCDS\CommonServices\obj\Release\net6.0\CommonServices.AssemblyInfo.cs
+D:\Projects\TCDS\CommonServices\obj\Release\net6.0\CommonServices.csproj.CoreCompileInputs.cache
+D:\Projects\TCDS\CommonServices\obj\Release\net6.0\CommonServices.csproj.CopyComplete
+D:\Projects\TCDS\CommonServices\obj\Release\net6.0\CommonServices.dll
+D:\Projects\TCDS\CommonServices\obj\Release\net6.0\refint\CommonServices.dll
+D:\Projects\TCDS\CommonServices\obj\Release\net6.0\CommonServices.pdb
+D:\Projects\TCDS\CommonServices\obj\Release\net6.0\ref\CommonServices.dll

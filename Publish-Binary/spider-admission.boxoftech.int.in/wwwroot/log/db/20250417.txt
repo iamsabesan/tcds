@@ -1,0 +1,6 @@
+***************************************************************************************** 
+Date  : 17-04-2025 03:19:39 PM 
+Entity : {"StudentID":"d2d80123-2b54-4b73-89d9-7e081d6a854c","Status":"REGISTERED"} 
+Cmd-Text : UPDATE StudentEnquiry SET [StudentID] = @StudentID,[Status] = @Status,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+

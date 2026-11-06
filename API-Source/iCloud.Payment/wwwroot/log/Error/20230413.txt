@@ -1,0 +1,68 @@
+***************************************************************************************** 
+Date  : 13-04-2023 12:59:22 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "The procedure \"uspCreateFranchiseePayment\" has no parameter named \"@PaymentItems\".",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 66\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 13-04-2023 01:07:22 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Trying to pass a table-valued parameter with 7 column(s) where the corresponding user-defined table type requires 8 column(s).",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 66\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 13-04-2023 01:10:13 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Cannot insert the value NULL into column 'TransactionDate', table '@PaymentItemsTest'; column does not allow nulls. INSERT fails.\r\nThe data for table-valued parameter \"@PaymentItemsTest\" doesn't conform to the table type of the parameter. SQL Server error is: 515, state: 2\r\nThe statement has been terminated.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 66\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 13-04-2023 01:22:15 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 6,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Conversion failed when converting date and/or time from character string.\r\nThe data for table-valued parameter \"@PaymentItemsTest\" doesn't conform to the table type of the parameter. SQL Server error is: 241, state: 1\r\nThe statement has been terminated.",
+    "Data": {},
+    "Source": "iCloud.Payment",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Payment.Controllers.PaymentV1Controller.FranchiseePayment(Receipt createPayment) in D:\\Projects\\iCloud\\iCloud\\iCloud.Payment\\Controllers\\PaymentV1Controller.cs:line 66\r\n   at lambda_method42(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+

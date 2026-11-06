@@ -1,0 +1,51 @@
+***************************************************************************************** 
+Date  : 26-05-2023 05:44:55 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "No mapping exists from object type EntitiesDTO.Course.CourseMapping to a known managed provider native type.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.CourseV1Controller.CreateCourseMapping(CourseMapping courseMapping) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 187\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 26-05-2023 05:51:13 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "No mapping exists from object type EntitiesDTO.Course.CourseMapping to a known managed provider native type.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.CourseV1Controller.CreateCourseMapping(CourseMapping courseMapping) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 187\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 26-05-2023 05:55:51 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "No mapping exists from object type EntitiesDTO.Course.CourseMapping to a known managed provider native type.",
+    "Data": {},
+    "Source": "iCloud.Academic",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Academic.Controllers.CourseV1Controller.CreateCourseMapping(CourseMapping courseMapping) in D:\\Projects\\iCloud\\iCloud\\iCloud.Academic\\Controllers\\CourseV1Controller.cs:line 187\r\n   at lambda_method44(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+

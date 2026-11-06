@@ -1,0 +1,77 @@
+***************************************************************************************** 
+Date  : 27-06-2023 05:40:40 PM 
+Trace : {
+  "ex": {
+    "ClassName": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException",
+    "Message": "Cannot perform runtime binding on a null reference",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at CallSite.Target(Closure , CallSite , Object )\r\n   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)\r\n   at CommonServices.CommonService.GetBranchTotalPurchase(Guid tenantBranchID, DateTime fromDate, DateTime toDate) in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 731\r\n   at iCloud.Franchisee.Services.FranchiseeService.GetFranchiseeProfileByID(Guid tenantBranchID, DateTime fromDate, DateTime toDate) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Services\\FranchiseeService.cs:line 446\r\n   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.GetFranchiseeProfileByID(Guid tenantBranchID, DateTime fromDate, DateTime toDate) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 203\r\n   at lambda_method89(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "Anonymously Hosted DynamicMethods Assembly",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 27-06-2023 05:40:52 PM 
+Trace : {
+  "ex": {
+    "ClassName": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException",
+    "Message": "Cannot perform runtime binding on a null reference",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at CallSite.Target(Closure , CallSite , Object )\r\n   at CommonServices.CommonService.GetBranchTotalPurchase(Guid tenantBranchID, DateTime fromDate, DateTime toDate) in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 731\r\n   at iCloud.Franchisee.Services.FranchiseeService.GetFranchiseeProfileByID(Guid tenantBranchID, DateTime fromDate, DateTime toDate) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Services\\FranchiseeService.cs:line 446\r\n   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.GetFranchiseeProfileByID(Guid tenantBranchID, DateTime fromDate, DateTime toDate) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 203\r\n   at lambda_method89(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "Anonymously Hosted DynamicMethods Assembly",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 27-06-2023 05:42:27 PM 
+Trace : {
+  "ex": {
+    "ClassName": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException",
+    "Message": "Cannot perform runtime binding on a null reference",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at CallSite.Target(Closure , CallSite , Object )\r\n   at CommonServices.CommonService.GetBranchTotalPurchase(Guid tenantBranchID, DateTime fromDate, DateTime toDate) in D:\\Projects\\iCloud\\iCloud\\CommonServices\\CommonService.cs:line 731\r\n   at iCloud.Franchisee.Services.FranchiseeService.GetFranchiseeProfileByID(Guid tenantBranchID, DateTime fromDate, DateTime toDate) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Services\\FranchiseeService.cs:line 446\r\n   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.GetFranchiseeProfileByID(Guid tenantBranchID, DateTime fromDate, DateTime toDate) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 203\r\n   at lambda_method89(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "Anonymously Hosted DynamicMethods Assembly",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 27-06-2023 05:45:24 PM 
+Trace : {
+  "ex": {
+    "Code": 400,
+    "Description": "request error",
+    "RefData": 4,
+    "DawnExceptionStatusCode": 4,
+    "Message": "Not found",
+    "Data": {},
+    "Source": "iCloud.Franchisee",
+    "HResult": -2146233088,
+    "StackTrace": "   at iCloud.Franchisee.Controllers.FranchiseeV1Controller.GetFranchiseeProfileByID(Guid tenantBranchID, DateTime fromDate, DateTime toDate) in D:\\Projects\\iCloud\\iCloud\\iCloud.Franchisee\\Controllers\\FranchiseeV1Controller.cs:line 207\r\n   at lambda_method41(Closure , Object )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)"
+  }
+} 
+***************************************************************************************** 
+

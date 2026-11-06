@@ -1,0 +1,2 @@
+wwwroot\log\Error\20230616.txt
+wwwroot\log\Error\20230710.txt

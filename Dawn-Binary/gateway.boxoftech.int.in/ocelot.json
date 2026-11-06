@@ -1,0 +1,866 @@
+{
+  "Routes": [
+
+	{
+      "DownstreamPathTemplate": "/api/financialAccounting/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/accounting-service/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "FinancialAccounting",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "FinancialAccounting"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+	
+    // Tenant routes start
+    {
+      "DownstreamPathTemplate": "/api/tenant/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/tenant-service/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "ServiceName": "Tenant",
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "UpstreamHeaderTransform": {
+        "ServiceName": "Tenant"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/tenant/create/7C23131D-5088-4E22-96B1-61E323D78D13",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/jwellery/tenant/create",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "ServiceName": "Tenant",
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Tenant"
+      }
+    },
+	
+    // Tenant routes end
+    // Identity routes start
+    {
+      "DownstreamPathTemplate": "/api/identity/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/authorize/{action}",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Identity"
+      },
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "OPTIONS"
+      ],
+      "ServiceName": "Identity"
+    },
+    // chandru
+    {
+      "DownstreamPathTemplate": "/api/rolemenu/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/menu/{action}",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Identity"
+      },
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "OPTIONS"
+      ],
+      "ServiceName": "Identity",
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+	
+    // Angular/ping
+    {
+      "DownstreamPathTemplate": "/api/identity/ping",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/angular/ping",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Identity"
+      },
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "OPTIONS"
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "ServiceName": "Identity"
+    },
+	
+	//Identity Version 1
+    {
+      "DownstreamPathTemplate": "/api/v{id}/identity/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/identity-service/v{id}/{action}",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Identity"
+      },
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "OPTIONS"
+      ],
+      "ServiceName": "Identity"
+    },
+	
+    // Identity routes end
+    // Tenant branch routes start
+    {
+      "DownstreamPathTemplate": "/api/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/tenant-branch-service/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      },
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "TenantBranch"
+      },
+      "ServiceName": "TenantBranch"
+    },
+	
+	//  Tenant Branch Create
+    {
+      "DownstreamPathTemplate": "/api/TenantBranch/default/create",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/tenant-branch/default/create",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "TenantBranch"
+      },
+      "ServiceName": "TenantBranch"
+    },
+	
+	 //  Tenant Branch Get Logo
+    {
+      "DownstreamPathTemplate": "/api/TenantBranch/get-logo",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/tenant-branch/logo",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      },
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "TenantBranch"
+      },
+      "ServiceName": "TenantBranch"
+    },
+    {
+      "DownstreamPathTemplate": "/api/TenantBranch/get-document-logo",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/tenant-branch/logo-image",
+      "UpstreamHttpMethod": [
+        "GET",
+		"OPTIONS"
+      ],
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "TenantBranch"
+      },
+      "ServiceName": "TenantBranch"
+    },
+    // Tenant branch routes end
+    // Contact routes start
+    {
+      "DownstreamPathTemplate": "/api/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/contact-service/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Contact"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      },
+      "ServiceName": "Contact"
+    },
+    {
+      "DownstreamPathTemplate": "/api/contact/create/on-tenant-reg",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/contact/create/on-tenant-reg",
+      "UpstreamHttpMethod": [
+        "POST",
+		"OPTIONS"
+      ],
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Contact"
+      },
+      "ServiceName": "Contact"
+    },
+    {
+      "DownstreamPathTemplate": "/api/userprofile/tenant-default",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/contact/userprofile/tenant-default",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Contact"
+      },
+      "ServiceName": "Contact"
+    },
+    {
+      "DownstreamPathTemplate": "/api/contact/create",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/contact/create",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Contact"
+      },
+      "ServiceName": "Contact"
+    },
+    // Contact routes end
+    // User routes start
+    {
+      "DownstreamPathTemplate": "/api/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/user-service/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value",
+        "TimeZone": "Claims[TimeZone] > value",
+        "DateTimeFormat": "Claims[DateTimeFormat] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      },
+      "ServiceName": "User",
+      "UpstreamHeaderTransform": {
+        "ServiceName": "User",
+        "X-Forwarded-For": "{RemoteIpAddress}"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/user/create/on-tenant-reg",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/user/create/on-tenant-reg",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "ServiceName": "User",
+      "UpstreamHeaderTransform": {
+        "ServiceName": "User",
+        "X-Forwarded-For": "{RemoteIpAddress}"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/user/host/create",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/host-user/create",
+      "UpstreamHttpMethod": [
+        "POST",
+		"OPTIONS"
+      ],
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      },
+      "ServiceName": "User",
+      "UpstreamHeaderTransform": {
+        "ServiceName": "User",
+        "X-Forwarded-For": "{RemoteIpAddress}"
+      }
+    },
+	
+    // Feature routes end
+
+    // SMS routes start
+    {
+      "DownstreamPathTemplate": "/api/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/sms-service/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      },
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "SMS"
+      },
+      "ServiceName": "SMS"
+    },
+    // SMS routes end
+    // Email routes start
+	
+    {
+      "DownstreamPathTemplate": "/api/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/email-service/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      },
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Email"
+      },
+      "ServiceName": "Email"
+    },
+    // Email routes end
+    // mssql service start
+    {
+      "DownstreamPathTemplate": "/api/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/dbadmin-service/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      },
+      "ServiceName": "DBAdmin",
+      "UpstreamHeaderTransform": {
+        "ServiceName": "DBAdmin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/dbadmin/set-initial-service",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/dbadmin/set-initial-service",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "ServiceName": "DBAdmin",
+      "UpstreamHeaderTransform": {
+        "ServiceName": "DBAdmin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/dbadmin/get-tenant-constr-on-reg",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/dbadmin/get-tenant-constr-on-reg",
+      "UpstreamHttpMethod": [
+        "POST",
+		"OPTIONS"
+      ],
+      "ServiceName": "DBAdmin",
+      "UpstreamHeaderTransform": {
+        "ServiceName": "DBAdmin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/common/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/common/{action}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+		"OPTIONS"
+      ],
+      //"AddHeadersToRequest": {
+      //  "AuthRole": "Claims[AuthRole] > value"
+      //},
+      "ServiceName": "Common"
+      //"UpstreamHeaderTransform": {
+      //  "ServiceName": "Common"
+      //}
+    },
+    // mssql service end
+    // mssql service start
+    {
+      "DownstreamPathTemplate": "/api/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/subscription-service/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+		"OPTIONS"
+      ],
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      },
+      "ServiceName": "Subscription",
+      "UpstreamHeaderTransform": {
+        "ServiceName": "Subscription"
+      }
+    },
+ 
+    //Document service routes start
+    {
+      "DownstreamPathTemplate": "/api/document/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/document-service/document/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "OPTIONS"
+      ],
+      "ServiceName": "Documents",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Documents"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/image/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/document-service/image/{action}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "OPTIONS"
+      ],
+      "ServiceName": "Documents",
+      "UpstreamHeaderTransform": {
+        "ServiceName": "Documents"
+      }
+    },
+   
+    // Notification service end
+    //Spider Application Start
+    //iCloud - Franchisee Services
+    {
+      "DownstreamPathTemplate": "/api/v{id}/subscription/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/icloud-franchisee/v{id}/subscription/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderFranchisee",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Franchisee"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/ping",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/icloud-franchisee/ping",
+      "UpstreamHttpMethod": [
+        "GET",
+		"OPTIONS"
+      ],
+      "ServiceName": "Franchisee"
+    },
+    //FranchiseeRegister
+    {
+      "DownstreamPathTemplate": "/api/v{id}/franchisee/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/icloud-franchisee/v{id}/franchisee/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderFranchisee",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Franchisee"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+	// tcds website
+	{
+      "DownstreamPathTemplate": "/api/v{id}/website/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/icloud-franchisee/v{id}/website/{action}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderFranchisee",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Franchisee"
+      }
+     },
+	
+    // iCloud Inventory - Material
+    {
+      "DownstreamPathTemplate": "/api/v{id}/material/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/icloud-inventory/v{id}/material/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderInventory",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Inventory"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+    // iCloud Invetory - Indent
+    {
+      "DownstreamPathTemplate": "/api/v{id}/indent/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/icloud-inventory/v{id}/indent/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderInventory",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Inventory"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+
+    //iCloud Academic - Subject
+    {
+      "DownstreamPathTemplate": "/api/v{id}/subject/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/icloud-academic/v{id}/subject/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderAcademic",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Academic"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+
+    //iCloud-Academic Course
+    {
+      "DownstreamPathTemplate": "/api/v{id}/course/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/icloud-academic/v{id}/course/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderAcademic",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Academic"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+
+    // Payment service
+    {
+      "DownstreamPathTemplate": "/api/v{id}/payment/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/icloud-payment/v{id}/payment/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderPayment",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Payment"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+    // Payment - Wallet
+    {
+      "DownstreamPathTemplate": "/api/v{id}/wallet/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/icloud-payment/v{id}/wallet/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderPayment",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Payment"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+
+    //iCloud - Admission_Batch service
+    {
+      "DownstreamPathTemplate": "/api/v{id}/batch/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/icloud-admission/v{id}/batch/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderAdmission",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Admission"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+    //iCloud - Admission_Student
+    {
+      "DownstreamPathTemplate": "/api/v{id}/student/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/icloud-admission/v{id}/student/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderAdmission",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "Admission"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+
+    //News Service
+    {
+      "DownstreamPathTemplate": "/api/v{id}/news/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/news/v{id}/news/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderNews",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "News"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+
+    //Email Service
+    {
+      "DownstreamPathTemplate": "/api/v{id}/email/{action}",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/email/v{id}/email/{action}",
+      "UpstreamHttpMethod": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE",
+		"OPTIONS"
+      ],
+      "ServiceName": "SpiderEmail",
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "{RemoteIpAddress}",
+        "ServiceName": "InternalEmail"
+      },
+      "AddHeadersToRequest": {
+        "AuthRole": "Claims[AuthRole] > value"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "DawnAuthScheme"
+      }
+    },
+ 
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://gateway.boxoftech.int.in/",
+    "ServiceDiscoveryProvider": {
+      "Scheme": "http",
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul",
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 0,
+        "TimeoutValue": 0
+      }
+    }
+  }
+}

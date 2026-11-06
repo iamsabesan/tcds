@@ -1,0 +1,96 @@
+***************************************************************************************** 
+Date  : 30-03-2023 04:43:37 PM 
+Entity : {
+  "IsDeleted": 1
+} 
+Cmd-Text : UPDATE TenantBranch SET [IsDeleted] = @IsDeleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 30-03-2023 04:45:56 PM 
+Entity : {
+  "IsDeleted": 1
+} 
+Cmd-Text : UPDATE TenantBranch SET [IsDeleted] = @IsDeleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 30-03-2023 04:47:58 PM 
+Entity : {
+  "IsDeleted": 1
+} 
+Cmd-Text : UPDATE TenantBranch SET [IsDeleted] = @IsDeleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 30-03-2023 04:49:32 PM 
+Entity : {
+  "IsDeleted": 1
+} 
+Cmd-Text : UPDATE TenantBranch SET [IsDeleted] = @IsDeleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 30-03-2023 04:52:45 PM 
+Entity : {
+  "IsDeleted": 1
+} 
+Cmd-Text : UPDATE TenantBranch SET [IsDeleted] = @IsDeleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 30-03-2023 04:54:11 PM 
+Entity : {
+  "IsDeleted": 1
+} 
+Cmd-Text : UPDATE TenantBranch SET [IsDeleted] = @IsDeleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 30-03-2023 04:56:53 PM 
+Entity : {
+  "IsDeleted": 1
+} 
+Cmd-Text : UPDATE TenantBranch SET [IsDeleted] = @IsDeleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 30-03-2023 04:59:10 PM 
+Entity : {
+  "IsDeleted": 1
+} 
+Cmd-Text : UPDATE TenantBranch SET [IsDeleted] = @IsDeleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 30-03-2023 05:02:48 PM 
+Entity : {
+  "IsDeleted": 1
+} 
+Cmd-Text : UPDATE TenantBranch SET [IsDeleted] = @IsDeleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 30-03-2023 07:03:59 PM 
+Entity : {
+  "IsDeleted": 1
+} 
+Cmd-Text : UPDATE TenantBranch SET [IsDeleted] = @IsDeleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 30-03-2023 07:04:30 PM 
+Entity : {
+  "IsDeleted": 1
+} 
+Cmd-Text : UPDATE TenantBranch SET [IsDeleted] = @IsDeleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 30-03-2023 07:05:04 PM 
+Entity : {
+  "IsDeleted": 1
+} 
+Cmd-Text : UPDATE TenantBranch SET [IsDeleted] = @IsDeleted,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+

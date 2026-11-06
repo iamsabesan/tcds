@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "GkLBtl7DmYxyWbwfZgIXsphDWMzhthKx2Xy7m3D1NbU=",
+  "Source": "iCloud.Tenant",
+  "BasePath": "_content/iCloud.Tenant",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "iCloud.Tenant\\wwwroot",
+      "Source": "iCloud.Tenant",
+      "ContentRoot": "D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\wwwroot\\",
+      "BasePath": "_content/iCloud.Tenant",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\wwwroot\\log\\db\\20230330.txt",
+      "SourceId": "iCloud.Tenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\wwwroot\\",
+      "BasePath": "_content/iCloud.Tenant",
+      "RelativePath": "log/db/20230330.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\log\\db\\20230330.txt"
+    },
+    {
+      "Identity": "D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\wwwroot\\log\\db\\20230331.txt",
+      "SourceId": "iCloud.Tenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\wwwroot\\",
+      "BasePath": "_content/iCloud.Tenant",
+      "RelativePath": "log/db/20230331.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\log\\db\\20230331.txt"
+    },
+    {
+      "Identity": "D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\wwwroot\\log\\Error\\20230408.txt",
+      "SourceId": "iCloud.Tenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\wwwroot\\",
+      "BasePath": "_content/iCloud.Tenant",
+      "RelativePath": "log/Error/20230408.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\log\\Error\\20230408.txt"
+    },
+    {
+      "Identity": "D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\wwwroot\\log\\Error\\20230417.txt",
+      "SourceId": "iCloud.Tenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\iCloud\\iCloud\\iCloud.Tenant\\wwwroot\\",
+      "BasePath": "_content/iCloud.Tenant",
+      "RelativePath": "log/Error/20230417.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\log\\Error\\20230417.txt"
+    }
+  ]
+}

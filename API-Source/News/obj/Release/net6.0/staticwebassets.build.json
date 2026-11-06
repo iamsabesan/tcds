@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "3YwE++IDUzHmsCDcUJELVNFZoWqzUgNkWZIoSxknd2Q=",
+  "Source": "News",
+  "BasePath": "_content/News",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "News\\wwwroot",
+      "Source": "News",
+      "ContentRoot": "D:\\Projects\\TCDS\\News\\wwwroot\\",
+      "BasePath": "_content/News",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\TCDS\\News\\wwwroot\\log\\Error\\20230616.txt",
+      "SourceId": "News",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\TCDS\\News\\wwwroot\\",
+      "BasePath": "_content/News",
+      "RelativePath": "log/Error/20230616.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\log\\Error\\20230616.txt"
+    },
+    {
+      "Identity": "D:\\Projects\\TCDS\\News\\wwwroot\\log\\Error\\20230710.txt",
+      "SourceId": "News",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\TCDS\\News\\wwwroot\\",
+      "BasePath": "_content/News",
+      "RelativePath": "log/Error/20230710.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\log\\Error\\20230710.txt"
+    }
+  ]
+}

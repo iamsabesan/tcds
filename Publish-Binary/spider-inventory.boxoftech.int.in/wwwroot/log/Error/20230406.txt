@@ -1,0 +1,180 @@
+***************************************************************************************** 
+Date  : 06-04-2023 01:32:23 PM 
+Trace : {"ex":{"Code":308,"Description":"","RefData":{"MaterialType":"Book","UpdatedBy":"9a5f11e3-0197-4918-a2ec-a1bea438e121"},"RefCommand":{"Timeout":30,"Type":"StoredProcedure","Text":"uspCreateMaterialType","Params":[{"Name":"@MaterialType","UsrType":"String","UsrValue":"Book","DbType":"NVarChar","DbValue":{"IsNull":false,"Value":"Book","LCID":16393,"CultureInfo":"en-IN","CompareInfo":{"Name":"en-IN","Version":{"FullVersion":24985,"SortId":"00006199-0000-0000-0000-000000004009"},"LCID":16393},"SqlCompareOptions":25}},{"Name":"@UpdatedBy","UsrType":"Guid","UsrValue":"9a5f11e3-0197-4918-a2ec-a1bea438e121","DbType":"UniqueIdentifier","DbValue":{"IsNull":false,"Value":"9a5f11e3-0197-4918-a2ec-a1bea438e121"}}],"Connection":{"State":"Closed","Database":"","DataSource":"","Timeout":15}},"RefTrace":"   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()\r\n   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)\r\n   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)\r\n   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)\r\n   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)","InnerException":null,"DawnExceptionStatusCode":20,"Message":"The ConnectionString property has not been initialized.","Data":{},"HelpLink":null,"Source":"Database","HResult":-2146233088,"StackTrace":"   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)\r\n   at iCloud.Inventory.Repository.MaterialRepository.CreateMaterialType(CreateMaterialType materialType, Guid actionBy) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Repository\\MaterialRepository.cs:line 23\r\n   at iCloud.Inventory.Services.MaterialService.CreateMaterialType(CreateMaterialType materialType) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Services\\MaterialService.cs:line 34\r\n   at iCloud.Inventory.Controllers.MaterialV1Controller.CreateMaterialType(CreateMaterialType materialType) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\MaterialV1Controller.cs:line 41\r\n   at lambda_method42(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"}} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 06-04-2023 01:54:34 PM 
+Trace : {
+  "ex": {
+    "Code": 308,
+    "Description": "",
+    "RefData": {
+      "MaterialType": "Book",
+      "UpdatedBy": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+    },
+    "RefCommand": {
+      "Timeout": 30,
+      "Type": "StoredProcedure",
+      "Text": "uspCreateMaterialType",
+      "Params": [
+        {
+          "Name": "@MaterialType",
+          "UsrType": "String",
+          "UsrValue": "Book",
+          "DbType": "NVarChar",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "Book",
+            "LCID": 16393,
+            "CultureInfo": "en-IN",
+            "CompareInfo": {
+              "Name": "en-IN",
+              "Version": {
+                "FullVersion": 24985,
+                "SortId": "00006199-0000-0000-0000-000000004009"
+              },
+              "LCID": 16393
+            },
+            "SqlCompareOptions": 25
+          }
+        },
+        {
+          "Name": "@UpdatedBy",
+          "UsrType": "Guid",
+          "UsrValue": "9a5f11e3-0197-4918-a2ec-a1bea438e121",
+          "DbType": "UniqueIdentifier",
+          "DbValue": {
+            "IsNull": false,
+            "Value": "9a5f11e3-0197-4918-a2ec-a1bea438e121"
+          }
+        }
+      ],
+      "Connection": {
+        "State": "Open",
+        "Database": "iCloud_Inventory",
+        "DataSource": "Data Source=OPTIMUS\\MSSQLSERVER2019;Initial Catalog=iCloud_Inventory;Persist Security Info=True;User ID=dawn;Password=dawn_123;TrustServerCertificate=Yes;",
+        "Timeout": 15
+      }
+    },
+    "RefTrace": "   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteScalar()\r\n   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)",
+    "DawnExceptionStatusCode": 20,
+    "Message": "Procedure or function 'uspCreateMaterialType' expects parameter '@CreatedBy', which was not supplied.",
+    "Data": {},
+    "Source": "Database",
+    "HResult": -2146233088,
+    "StackTrace": "   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)\r\n   at iCloud.Inventory.Repository.MaterialRepository.CreateMaterialType(CreateMaterialType materialType, Guid actionBy) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Repository\\MaterialRepository.cs:line 23\r\n   at iCloud.Inventory.Services.MaterialService.CreateMaterialType(CreateMaterialType materialType) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Services\\MaterialService.cs:line 34\r\n   at iCloud.Inventory.Controllers.MaterialV1Controller.CreateMaterialType(CreateMaterialType materialType) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\MaterialV1Controller.cs:line 41\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 06-04-2023 03:15:07 PM 
+Trace : {
+  "ex": {
+    "Code": 308,
+    "Description": "",
+    "RefCommand": {
+      "Timeout": 30,
+      "Type": "Text",
+      "Text": "sfnMaterialTypeExist(EntitiesDTO.Material.CreateMaterialType)",
+      "Params": [],
+      "Connection": {
+        "State": "Open",
+        "Database": "iCloud_Inventory",
+        "DataSource": "Data Source=OPTIMUS\\MSSQLSERVER2019;Initial Catalog=iCloud_Inventory;Persist Security Info=True;User ID=dawn;Password=dawn_123;TrustServerCertificate=Yes;",
+        "Timeout": 15
+      }
+    },
+    "RefTrace": "   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteScalar()\r\n   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)",
+    "DawnExceptionStatusCode": 20,
+    "Message": "Incorrect syntax near 'EntitiesDTO'.",
+    "Data": {},
+    "Source": "Database",
+    "HResult": -2146233088,
+    "StackTrace": "   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)\r\n   at iCloud.Inventory.Repository.MaterialRepository.CheckMaterialTypeExist(CreateMaterialType materialType) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Repository\\MaterialRepository.cs:line 34\r\n   at iCloud.Inventory.Services.MaterialService.CreateMaterialType(CreateMaterialType materialType) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Services\\MaterialService.cs:line 34\r\n   at iCloud.Inventory.Controllers.MaterialV1Controller.CreateMaterialType(CreateMaterialType materialType) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\MaterialV1Controller.cs:line 41\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()"
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 06-04-2023 03:18:39 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.ArgumentException",
+    "Message": "No mapping exists from object type EntitiesDTO.Material.CreateMaterialType to a known managed provider native type.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at Microsoft.Data.SqlClient.MetaType.GetMetaTypeFromValue(Type dataType, Object value, Boolean inferLen, Boolean streamAllowed)\r\n   at Dawn.Utilities.Exceptions.DawnException.getDbRef(IDbCommand cmd)\r\n   at Dawn.Utilities.Exceptions.DawnDbException..ctor(Exception ex, IDbCommand command, Object data, DawnStatusCode code)\r\n   at Dawn.Database.DawnDbClient.ExecuteScalarImpl(String sql, Object param, Nullable`1 commandTimeout, Nullable`1 commandType)\r\n   at iCloud.Inventory.Repository.MaterialRepository.CheckMaterialTypeExist(CreateMaterialType materialType) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Repository\\MaterialRepository.cs:line 34\r\n   at iCloud.Inventory.Services.MaterialService.CreateMaterialType(CreateMaterialType materialType) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Services\\MaterialService.cs:line 34\r\n   at iCloud.Inventory.Controllers.MaterialV1Controller.CreateMaterialType(CreateMaterialType materialType) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\MaterialV1Controller.cs:line 41\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147024809,
+    "Source": "Microsoft.Data.SqlClient",
+    "WatsonBuckets": null,
+    "ParamName": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 06-04-2023 03:30:47 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "The material type already exists",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at iCloud.Inventory.Services.MaterialService.CreateMaterialType(CreateMaterialType materialType) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Services\\MaterialService.cs:line 35\r\n   at iCloud.Inventory.Controllers.MaterialV1Controller.CreateMaterialType(CreateMaterialType materialType) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\MaterialV1Controller.cs:line 41\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "iCloud.Inventory",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 06-04-2023 04:06:40 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "The material already exists",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at iCloud.Inventory.Services.MaterialService.CreateMaterial(CreateMaterial material) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Services\\MaterialService.cs:line 49\r\n   at iCloud.Inventory.Controllers.MaterialV1Controller.CreateMaterial(CreateMaterial material) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\MaterialV1Controller.cs:line 74\r\n   at lambda_method39(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "iCloud.Inventory",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 06-04-2023 05:20:40 PM 
+Trace : {
+  "ex": {
+    "ClassName": "System.Exception",
+    "Message": "The material already exists",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   at iCloud.Inventory.Services.MaterialService.CreateMaterial(CreateMaterial material) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Services\\MaterialService.cs:line 49\r\n   at iCloud.Inventory.Controllers.MaterialV1Controller.CreateMaterial(CreateMaterial material) in D:\\Projects\\iCloud\\iCloud\\iCloud.Inventory\\Controllers\\MaterialV1Controller.cs:line 74\r\n   at lambda_method60(Closure , Object , Object[] )\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2146233088,
+    "Source": "iCloud.Inventory",
+    "WatsonBuckets": null
+  }
+} 
+***************************************************************************************** 
+

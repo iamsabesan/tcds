@@ -1,0 +1,12 @@
+***************************************************************************************** 
+Date  : 20-06-2025 10:27:27 AM 
+Entity : {"StudentID":"e85b0bf4-2164-4b97-b326-ea02d0aea1aa","Status":"REGISTERED"} 
+Cmd-Text : UPDATE StudentEnquiry SET [StudentID] = @StudentID,[Status] = @Status,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+
+***************************************************************************************** 
+Date  : 20-06-2025 01:18:14 PM 
+Entity : {"StudentID":"28c310ad-1450-41b1-a41c-d8b14a8fa3e6","Status":"REGISTERED"} 
+Cmd-Text : UPDATE StudentEnquiry SET [StudentID] = @StudentID,[Status] = @Status,[UpdatedBy] = @UpdatedBy,[UpdatedDate] = @UpdatedDate WHERE 1 = 1  
+***************************************************************************************** 
+

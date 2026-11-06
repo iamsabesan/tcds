@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\TCDS_Hand_Over_Source\\API-Source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DED2C81E-95DE-4AEF-A857-81F302335A41}|iCloud.Admission\\iCloud.Admission.csproj|e:\\tcds_hand_over_source\\api-source\\icloud.admission\\controllers\\studentv1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED2C81E-95DE-4AEF-A857-81F302335A41}|iCloud.Admission\\iCloud.Admission.csproj|solutionrelative:icloud.admission\\controllers\\studentv1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentV1Controller.cs",
+              "DocumentMoniker": "E:\\TCDS_Hand_Over_Source\\API-Source\\iCloud.Admission\\Controllers\\StudentV1Controller.cs",
+              "RelativeDocumentMoniker": "iCloud.Admission\\Controllers\\StudentV1Controller.cs",
+              "ToolTip": "E:\\TCDS_Hand_Over_Source\\API-Source\\iCloud.Admission\\Controllers\\StudentV1Controller.cs",
+              "RelativeToolTip": "iCloud.Admission\\Controllers\\StudentV1Controller.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAcwJoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T11:40:10.106Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
